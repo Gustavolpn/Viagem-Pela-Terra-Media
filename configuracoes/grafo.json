@@ -1,0 +1,739 @@
+{
+  "titulo": "Grafo da Terra-média",
+  "imagem": "mapa.jpeg",
+  "largura": 1600,
+  "altura": 1131,
+  "direcionado": false,
+  "milhas_por_pixel": 1.15,
+  "km_por_pixel": 1.85,
+  "nos": {
+    "portos": {
+      "nome": "Portos Cinzentos",
+      "x": 279,
+      "y": 325
+    },
+    "hobbiton": {
+      "nome": "Vila dos Hobbits",
+      "x": 402,
+      "y": 338
+    },
+    "ponte": {
+      "nome": "Ponte do Brandevin",
+      "x": 458,
+      "y": 302
+    },
+    "bri": {
+      "nome": "Bri",
+      "x": 522,
+      "y": 331
+    },
+    "fornost": {
+      "nome": "Fornost",
+      "x": 480,
+      "y": 244
+    },
+    "topo": {
+      "nome": "Topo do Vento",
+      "x": 592,
+      "y": 292
+    },
+    "ultima": {
+      "nome": "Última Ponte",
+      "x": 682,
+      "y": 294
+    },
+    "vau": {
+      "nome": "Vau do Bruinen",
+      "x": 771,
+      "y": 308
+    },
+    "valfenda": {
+      "nome": "Valfenda",
+      "x": 797,
+      "y": 289
+    },
+    "sarn": {
+      "nome": "Vau Sarn",
+      "x": 461,
+      "y": 386
+    },
+    "tharbad": {
+      "nome": "Tharbad",
+      "x": 574,
+      "y": 469
+    },
+    "dunland": {
+      "nome": "Terra Parda",
+      "x": 622,
+      "y": 566
+    },
+    "moria_o": {
+      "nome": "Moria — entrada oeste",
+      "x": 746,
+      "y": 463
+    },
+    "moria_l": {
+      "nome": "Moria — saída leste",
+      "x": 782,
+      "y": 478
+    },
+    "caradhras": {
+      "nome": "Passagem de Caradhras",
+      "x": 777,
+      "y": 442
+    },
+    "lorien": {
+      "nome": "Lothlórien",
+      "x": 837,
+      "y": 488
+    },
+    "isengard": {
+      "nome": "Isengard",
+      "x": 690,
+      "y": 632
+    },
+    "isen": {
+      "nome": "Vaus do Isen",
+      "x": 686,
+      "y": 692
+    },
+    "abismo": {
+      "nome": "Abismo de Helm",
+      "x": 751,
+      "y": 726
+    },
+    "edoras": {
+      "nome": "Edoras",
+      "x": 791,
+      "y": 751
+    },
+    "fangorn": {
+      "nome": "Orla de Fangorn",
+      "x": 801,
+      "y": 638
+    },
+    "vau_n": {
+      "nome": "Vau Norte do Anduin",
+      "x": 947,
+      "y": 581
+    },
+    "vau_s": {
+      "nome": "Vau Sul do Anduin",
+      "x": 950,
+      "y": 617
+    },
+    "rauros": {
+      "nome": "Rauros",
+      "x": 973,
+      "y": 719
+    },
+    "cair": {
+      "nome": "Cair Andros",
+      "x": 1015,
+      "y": 795
+    },
+    "minas": {
+      "nome": "Minas Tirith",
+      "x": 1018,
+      "y": 847
+    },
+    "osgiliath": {
+      "nome": "Osgiliath",
+      "x": 1045,
+      "y": 839
+    },
+    "encruzilhada": {
+      "nome": "Encruzilhada de Ithilien",
+      "x": 1068,
+      "y": 829
+    },
+    "morgul": {
+      "nome": "Minas Morgul",
+      "x": 1087,
+      "y": 836
+    },
+    "cirith": {
+      "nome": "Cirith Ungol",
+      "x": 1102,
+      "y": 832
+    },
+    "portao": {
+      "nome": "Portão Negro",
+      "x": 1086,
+      "y": 744
+    },
+    "udun": {
+      "nome": "Udûn",
+      "x": 1105,
+      "y": 760
+    },
+    "isenmouthe": {
+      "nome": "Isenmouthe",
+      "x": 1127,
+      "y": 779
+    },
+    "orodruin": {
+      "nome": "Montanha da Perdição",
+      "x": 1154,
+      "y": 808
+    },
+    "no_35": {
+      "x": 340,
+      "y": 319
+    },
+    "no_36": {
+      "x": 432,
+      "y": 329
+    },
+    "no_37": {
+      "x": 509,
+      "y": 287
+    },
+    "no_38": {
+      "x": 623,
+      "y": 307
+    },
+    "no_39": {
+      "x": 726,
+      "y": 311
+    },
+    "no_40": {
+      "x": 424,
+      "y": 362
+    },
+    "no_41": {
+      "x": 505,
+      "y": 418
+    },
+    "no_42": {
+      "x": 526,
+      "y": 374
+    },
+    "no_43": {
+      "x": 550,
+      "y": 412
+    },
+    "no_44": {
+      "x": 598,
+      "y": 517
+    },
+    "no_45": {
+      "x": 646,
+      "y": 629
+    },
+    "no_46": {
+      "x": 662,
+      "y": 669
+    },
+    "no_47": {
+      "x": 746,
+      "y": 354
+    },
+    "no_48": {
+      "x": 722,
+      "y": 406
+    },
+    "no_49": {
+      "x": 766,
+      "y": 351
+    },
+    "no_50": {
+      "x": 749,
+      "y": 411
+    },
+    "no_51": {
+      "x": 800,
+      "y": 455
+    },
+    "no_52": {
+      "x": 809,
+      "y": 493
+    },
+    "no_53": {
+      "x": 701,
+      "y": 493
+    },
+    "no_54": {
+      "x": 658,
+      "y": 531
+    },
+    "no_55": {
+      "x": 676,
+      "y": 658
+    },
+    "no_56": {
+      "x": 717,
+      "y": 703
+    },
+    "no_57": {
+      "x": 724,
+      "y": 706
+    },
+    "no_58": {
+      "x": 764,
+      "y": 731
+    },
+    "no_59": {
+      "x": 770,
+      "y": 729
+    },
+    "no_60": {
+      "x": 737,
+      "y": 659
+    },
+    "no_61": {
+      "x": 825,
+      "y": 681
+    },
+    "no_62": {
+      "x": 844,
+      "y": 545
+    },
+    "no_63": {
+      "x": 819,
+      "y": 588
+    },
+    "no_64": {
+      "x": 872,
+      "y": 529
+    },
+    "no_65": {
+      "x": 908,
+      "y": 550
+    },
+    "no_66": {
+      "x": 962,
+      "y": 654
+    },
+    "no_67": {
+      "x": 962,
+      "y": 693
+    },
+    "no_68": {
+      "x": 862,
+      "y": 665
+    },
+    "no_69": {
+      "x": 923,
+      "y": 687
+    },
+    "no_70": {
+      "x": 858,
+      "y": 764
+    },
+    "no_71": {
+      "x": 930,
+      "y": 785
+    },
+    "no_72": {
+      "x": 988,
+      "y": 813
+    },
+    "no_73": {
+      "x": 974,
+      "y": 756
+    },
+    "no_74": {
+      "x": 1000,
+      "y": 776
+    },
+    "no_75": {
+      "x": 1010,
+      "y": 823
+    },
+    "no_76": {
+      "x": 1048,
+      "y": 798
+    },
+    "no_77": {
+      "x": 1096,
+      "y": 821
+    },
+    "no_78": {
+      "x": 1065,
+      "y": 790
+    },
+    "no_79": {
+      "x": 1063,
+      "y": 765
+    },
+    "no_80": {
+      "x": 1144,
+      "y": 792
+    },
+    "no_81": {
+      "x": 1116,
+      "y": 854
+    },
+    "no_82": {
+      "x": 1144,
+      "y": 849
+    }
+  },
+  "arestas": [
+    {
+      "origem": "portos",
+      "destino": "no_35"
+    },
+    {
+      "origem": "no_35",
+      "destino": "hobbiton"
+    },
+    {
+      "origem": "hobbiton",
+      "destino": "no_36"
+    },
+    {
+      "origem": "no_36",
+      "destino": "ponte"
+    },
+    {
+      "origem": "ponte",
+      "destino": "bri"
+    },
+    {
+      "origem": "bri",
+      "destino": "no_37"
+    },
+    {
+      "origem": "no_37",
+      "destino": "fornost"
+    },
+    {
+      "origem": "bri",
+      "destino": "topo"
+    },
+    {
+      "origem": "topo",
+      "destino": "no_38"
+    },
+    {
+      "origem": "no_38",
+      "destino": "ultima"
+    },
+    {
+      "origem": "ultima",
+      "destino": "no_39"
+    },
+    {
+      "origem": "no_39",
+      "destino": "vau"
+    },
+    {
+      "origem": "vau",
+      "destino": "valfenda"
+    },
+    {
+      "origem": "hobbiton",
+      "destino": "no_40"
+    },
+    {
+      "origem": "no_40",
+      "destino": "sarn"
+    },
+    {
+      "origem": "sarn",
+      "destino": "no_41"
+    },
+    {
+      "origem": "no_41",
+      "destino": "tharbad"
+    },
+    {
+      "origem": "bri",
+      "destino": "no_42"
+    },
+    {
+      "origem": "no_42",
+      "destino": "no_43"
+    },
+    {
+      "origem": "no_43",
+      "destino": "tharbad"
+    },
+    {
+      "origem": "tharbad",
+      "destino": "no_44"
+    },
+    {
+      "origem": "no_44",
+      "destino": "dunland"
+    },
+    {
+      "origem": "dunland",
+      "destino": "no_45"
+    },
+    {
+      "origem": "no_45",
+      "destino": "no_46"
+    },
+    {
+      "origem": "no_46",
+      "destino": "isen"
+    },
+    {
+      "origem": "valfenda",
+      "destino": "no_47"
+    },
+    {
+      "origem": "no_47",
+      "destino": "no_48"
+    },
+    {
+      "origem": "no_48",
+      "destino": "moria_o"
+    },
+    {
+      "origem": "valfenda",
+      "destino": "no_49"
+    },
+    {
+      "origem": "no_49",
+      "destino": "no_50"
+    },
+    {
+      "origem": "no_50",
+      "destino": "caradhras"
+    },
+    {
+      "origem": "caradhras",
+      "destino": "no_51"
+    },
+    {
+      "origem": "no_51",
+      "destino": "lorien"
+    },
+    {
+      "origem": "moria_o",
+      "destino": "moria_l"
+    },
+    {
+      "origem": "moria_l",
+      "destino": "no_52"
+    },
+    {
+      "origem": "no_52",
+      "destino": "lorien"
+    },
+    {
+      "origem": "moria_o",
+      "destino": "no_53"
+    },
+    {
+      "origem": "no_53",
+      "destino": "no_54"
+    },
+    {
+      "origem": "no_54",
+      "destino": "dunland"
+    },
+    {
+      "origem": "isen",
+      "destino": "no_55"
+    },
+    {
+      "origem": "no_55",
+      "destino": "isengard"
+    },
+    {
+      "origem": "isen",
+      "destino": "no_56"
+    },
+    {
+      "origem": "no_56",
+      "destino": "abismo"
+    },
+    {
+      "origem": "isen",
+      "destino": "no_57"
+    },
+    {
+      "origem": "no_57",
+      "destino": "no_58"
+    },
+    {
+      "origem": "no_58",
+      "destino": "edoras"
+    },
+    {
+      "origem": "abismo",
+      "destino": "no_59"
+    },
+    {
+      "origem": "no_59",
+      "destino": "edoras"
+    },
+    {
+      "origem": "isengard",
+      "destino": "no_60"
+    },
+    {
+      "origem": "no_60",
+      "destino": "fangorn"
+    },
+    {
+      "origem": "fangorn",
+      "destino": "no_61"
+    },
+    {
+      "origem": "no_61",
+      "destino": "edoras"
+    },
+    {
+      "origem": "lorien",
+      "destino": "no_62"
+    },
+    {
+      "origem": "no_62",
+      "destino": "no_63"
+    },
+    {
+      "origem": "no_63",
+      "destino": "fangorn"
+    },
+    {
+      "origem": "lorien",
+      "destino": "no_64"
+    },
+    {
+      "origem": "no_64",
+      "destino": "no_65"
+    },
+    {
+      "origem": "no_65",
+      "destino": "vau_n"
+    },
+    {
+      "origem": "vau_n",
+      "destino": "vau_s"
+    },
+    {
+      "origem": "vau_s",
+      "destino": "no_66"
+    },
+    {
+      "origem": "no_66",
+      "destino": "no_67"
+    },
+    {
+      "origem": "no_67",
+      "destino": "rauros"
+    },
+    {
+      "origem": "fangorn",
+      "destino": "no_68"
+    },
+    {
+      "origem": "no_68",
+      "destino": "no_69"
+    },
+    {
+      "origem": "no_69",
+      "destino": "rauros"
+    },
+    {
+      "origem": "edoras",
+      "destino": "no_70"
+    },
+    {
+      "origem": "no_70",
+      "destino": "no_71"
+    },
+    {
+      "origem": "no_71",
+      "destino": "no_72"
+    },
+    {
+      "origem": "no_72",
+      "destino": "minas"
+    },
+    {
+      "origem": "rauros",
+      "destino": "no_73"
+    },
+    {
+      "origem": "no_73",
+      "destino": "no_74"
+    },
+    {
+      "origem": "no_74",
+      "destino": "cair"
+    },
+    {
+      "origem": "cair",
+      "destino": "no_75"
+    },
+    {
+      "origem": "no_75",
+      "destino": "minas"
+    },
+    {
+      "origem": "minas",
+      "destino": "osgiliath"
+    },
+    {
+      "origem": "cair",
+      "destino": "no_76"
+    },
+    {
+      "origem": "no_76",
+      "destino": "encruzilhada"
+    },
+    {
+      "origem": "osgiliath",
+      "destino": "encruzilhada"
+    },
+    {
+      "origem": "encruzilhada",
+      "destino": "morgul"
+    },
+    {
+      "origem": "morgul",
+      "destino": "no_77"
+    },
+    {
+      "origem": "no_77",
+      "destino": "cirith"
+    },
+    {
+      "origem": "encruzilhada",
+      "destino": "no_78"
+    },
+    {
+      "origem": "no_78",
+      "destino": "no_79"
+    },
+    {
+      "origem": "no_79",
+      "destino": "portao"
+    },
+    {
+      "origem": "portao",
+      "destino": "udun"
+    },
+    {
+      "origem": "udun",
+      "destino": "isenmouthe"
+    },
+    {
+      "origem": "isenmouthe",
+      "destino": "no_80"
+    },
+    {
+      "origem": "no_80",
+      "destino": "orodruin"
+    },
+    {
+      "origem": "cirith",
+      "destino": "no_81"
+    },
+    {
+      "origem": "no_81",
+      "destino": "no_82"
+    },
+    {
+      "origem": "no_82",
+      "destino": "orodruin"
+    }
+  ]
+}
