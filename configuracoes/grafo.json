@@ -9,153 +9,153 @@
   "nos": {
     "portos": {
       "nome": "Portos Cinzentos",
-      "x": 279,
-      "y": 325
+      "x": 300,
+      "y": 270
     },
     "hobbiton": {
       "nome": "Vila dos Hobbits",
-      "x": 402,
-      "y": 338
+      "x": 391,
+      "y": 315
     },
     "ponte": {
       "nome": "Ponte do Brandevin",
-      "x": 458,
-      "y": 302
+      "x": 437,
+      "y": 305
     },
     "bri": {
       "nome": "Bri",
-      "x": 522,
-      "y": 331
+      "x": 510,
+      "y": 318
     },
     "fornost": {
       "nome": "Fornost",
-      "x": 480,
-      "y": 244
+      "x": 483,
+      "y": 226
     },
     "topo": {
       "nome": "Topo do Vento",
-      "x": 592,
-      "y": 292
+      "x": 590,
+      "y": 290
     },
     "ultima": {
       "nome": "Última Ponte",
-      "x": 682,
-      "y": 294
+      "x": 684,
+      "y": 283
     },
     "vau": {
       "nome": "Vau do Bruinen",
-      "x": 771,
-      "y": 308
+      "x": 773,
+      "y": 309
     },
     "valfenda": {
       "nome": "Valfenda",
-      "x": 797,
+      "x": 785,
       "y": 289
     },
     "sarn": {
       "nome": "Vau Sarn",
-      "x": 461,
-      "y": 386
+      "x": 456,
+      "y": 383
     },
     "tharbad": {
       "nome": "Tharbad",
-      "x": 574,
-      "y": 469
+      "x": 570,
+      "y": 467
     },
     "dunland": {
       "nome": "Terra Parda",
-      "x": 622,
-      "y": 566
+      "x": 643,
+      "y": 565
     },
     "moria_o": {
       "nome": "Moria — entrada oeste",
-      "x": 746,
-      "y": 463
+      "x": 763,
+      "y": 464
     },
     "moria_l": {
       "nome": "Moria — saída leste",
-      "x": 782,
-      "y": 478
+      "x": 795,
+      "y": 479
     },
     "caradhras": {
       "nome": "Passagem de Caradhras",
-      "x": 777,
-      "y": 442
+      "x": 789,
+      "y": 446
     },
     "lorien": {
       "nome": "Lothlórien",
-      "x": 837,
-      "y": 488
+      "x": 822,
+      "y": 482
     },
     "isengard": {
       "nome": "Isengard",
-      "x": 690,
-      "y": 632
+      "x": 694,
+      "y": 635
     },
     "isen": {
       "nome": "Vaus do Isen",
-      "x": 686,
-      "y": 692
+      "x": 698,
+      "y": 684
     },
     "abismo": {
       "nome": "Abismo de Helm",
-      "x": 751,
-      "y": 726
+      "x": 749,
+      "y": 724
     },
     "edoras": {
       "nome": "Edoras",
       "x": 791,
-      "y": 751
+      "y": 750
     },
     "fangorn": {
       "nome": "Orla de Fangorn",
-      "x": 801,
+      "x": 802,
       "y": 638
     },
     "vau_n": {
-      "nome": "Vau Norte do Anduin",
-      "x": 947,
-      "y": 581
+      "nome": "Meandro Norte do Anduin",
+      "x": 928,
+      "y": 587
     },
     "vau_s": {
-      "nome": "Vau Sul do Anduin",
-      "x": 950,
-      "y": 617
+      "nome": "Meandro Sul do Anduin",
+      "x": 943,
+      "y": 614
     },
     "rauros": {
       "nome": "Rauros",
-      "x": 973,
-      "y": 719
+      "x": 970,
+      "y": 738
     },
     "cair": {
       "nome": "Cair Andros",
-      "x": 1015,
-      "y": 795
+      "x": 1018,
+      "y": 797
     },
     "minas": {
       "nome": "Minas Tirith",
-      "x": 1018,
-      "y": 847
+      "x": 1036,
+      "y": 846
     },
     "osgiliath": {
       "nome": "Osgiliath",
-      "x": 1045,
-      "y": 839
+      "x": 1060,
+      "y": 850
     },
     "encruzilhada": {
       "nome": "Encruzilhada de Ithilien",
-      "x": 1068,
-      "y": 829
+      "x": 1076,
+      "y": 844
     },
     "morgul": {
       "nome": "Minas Morgul",
-      "x": 1087,
-      "y": 836
+      "x": 1091,
+      "y": 840
     },
     "cirith": {
       "nome": "Cirith Ungol",
-      "x": 1102,
-      "y": 832
+      "x": 1105,
+      "y": 826
     },
     "portao": {
       "nome": "Portão Negro",
@@ -165,10 +165,10 @@
     "udun": {
       "nome": "Udûn",
       "x": 1105,
-      "y": 760
+      "y": 756
     },
     "isenmouthe": {
-      "nome": "Isenmouthe",
+      "nome": "Boca Ferrada",
       "x": 1127,
       "y": 779
     },
@@ -177,210 +177,1685 @@
       "x": 1154,
       "y": 808
     },
-    "no_35": {
-      "x": 340,
-      "y": 319
-    },
-    "no_36": {
-      "x": 432,
-      "y": 329
-    },
-    "no_37": {
-      "x": 509,
-      "y": 287
-    },
-    "no_38": {
-      "x": 623,
-      "y": 307
-    },
-    "no_39": {
-      "x": 726,
+    "bolsao": {
+      "nome": "Bolsão",
+      "x": 389,
       "y": 311
     },
-    "no_40": {
-      "x": 424,
-      "y": 362
+    "bywater": {
+      "nome": "Beirágua",
+      "x": 398,
+      "y": 319
     },
-    "no_41": {
-      "x": 505,
-      "y": 418
+    "waymeet": {
+      "nome": "Encruzada",
+      "x": 368,
+      "y": 333
     },
-    "no_42": {
-      "x": 526,
-      "y": 374
+    "michel_delving": {
+      "nome": "Grã Cava",
+      "x": 346,
+      "y": 345
     },
-    "no_43": {
-      "x": 550,
-      "y": 412
+    "tuckborough": {
+      "nome": "Tuqueburgo",
+      "x": 390,
+      "y": 342
     },
-    "no_44": {
-      "x": 598,
-      "y": 517
+    "stock": {
+      "nome": "Tronco",
+      "x": 434,
+      "y": 322
     },
-    "no_45": {
-      "x": 646,
-      "y": 629
+    "woodhall": {
+      "nome": "Vila do Bosque",
+      "x": 420,
+      "y": 334
     },
-    "no_46": {
-      "x": 662,
-      "y": 669
+    "bamfurlong": {
+      "nome": "Glebafava",
+      "x": 440,
+      "y": 333
     },
-    "no_47": {
-      "x": 746,
-      "y": 354
+    "balsa": {
+      "nome": "Balsa de Buqueburgo",
+      "x": 446,
+      "y": 332
     },
-    "no_48": {
+    "bucklebury": {
+      "nome": "Buqueburgo",
+      "x": 452,
+      "y": 331
+    },
+    "crickhollow": {
+      "nome": "Cricôncavo",
+      "x": 456,
+      "y": 324
+    },
+    "floresta_velha": {
+      "nome": "Floresta Velha",
+      "x": 466,
+      "y": 332
+    },
+    "tom_bombadil": {
+      "nome": "Casa de Tom Bombadil",
+      "x": 484,
+      "y": 341
+    },
+    "colinas_tumulos": {
+      "nome": "Colinas dos Túmulos",
+      "x": 491,
+      "y": 333
+    },
+    "staddle": {
+      "nome": "Estrado",
+      "x": 517,
+      "y": 321
+    },
+    "combe": {
+      "nome": "Valão",
+      "x": 519,
+      "y": 315
+    },
+    "archet": {
+      "nome": "Archet",
+      "x": 520,
+      "y": 306
+    },
+    "chetwood": {
+      "nome": "Floresta Chet",
+      "x": 523,
+      "y": 299
+    },
+    "mosquitos": {
+      "nome": "Pântanos dos Mosquitos",
+      "x": 547,
+      "y": 299
+    },
+    "estalagem": {
+      "nome": "Estalagem Abandonada",
+      "x": 539,
+      "y": 312
+    },
+    "torres": {
+      "nome": "Colinas das Torres",
+      "x": 311,
+      "y": 331
+    },
+    "forlond": {
+      "nome": "Forlond",
+      "x": 209,
+      "y": 291
+    },
+    "harlond_lindon": {
+      "nome": "Harlond de Lindon",
+      "x": 188,
+      "y": 365
+    },
+    "montanhas_azuis": {
+      "nome": "Montanhas Azuis",
+      "x": 196,
+      "y": 202
+    },
+    "annuminas": {
+      "nome": "Annúminas",
+      "x": 372,
+      "y": 251
+    },
+    "nenuial": {
+      "nome": "Lago Nenuial",
+      "x": 390,
+      "y": 224
+    },
+    "carn_dum": {
+      "nome": "Carn Dûm",
+      "x": 558,
+      "y": 65
+    },
+    "ettenmoors": {
+      "nome": "Charneca Etten",
+      "x": 714,
+      "y": 176
+    },
+    "gundabad": {
+      "nome": "Monte Gundabad",
+      "x": 793,
+      "y": 121
+    },
+    "eregion": {
+      "nome": "Eregion",
+      "x": 727,
+      "y": 419
+    },
+    "ost_in_edhil": {
+      "nome": "Ost-in-Edhil",
       "x": 722,
-      "y": 406
-    },
-    "no_49": {
-      "x": 766,
-      "y": 351
-    },
-    "no_50": {
-      "x": 749,
-      "y": 411
-    },
-    "no_51": {
-      "x": 800,
       "y": 455
     },
-    "no_52": {
-      "x": 809,
-      "y": 493
+    "lond_daer": {
+      "nome": "Lond Daer",
+      "x": 451,
+      "y": 604
     },
-    "no_53": {
-      "x": 701,
-      "y": 493
+    "eryn_vorn": {
+      "nome": "Eryn Vorn",
+      "x": 338,
+      "y": 554
     },
-    "no_54": {
-      "x": 658,
-      "y": 531
+    "dimrill": {
+      "nome": "Vale do Riacho Escuro",
+      "x": 807,
+      "y": 477
     },
-    "no_55": {
-      "x": 676,
-      "y": 658
+    "kheled_zaram": {
+      "nome": "Kheled-zâram",
+      "x": 804,
+      "y": 488
     },
-    "no_56": {
-      "x": 717,
-      "y": 703
+    "passo_alto": {
+      "nome": "Passo Alto",
+      "x": 824,
+      "y": 279
     },
-    "no_57": {
-      "x": 724,
-      "y": 706
+    "goblin_town": {
+      "nome": "Cidade dos Gnomos",
+      "x": 821,
+      "y": 265
     },
-    "no_58": {
-      "x": 764,
-      "y": 731
+    "lago_gollum": {
+      "nome": "Lago de Gollum",
+      "x": 824,
+      "y": 269
     },
-    "no_59": {
-      "x": 770,
-      "y": 729
+    "carrock": {
+      "nome": "Carrocha",
+      "x": 889,
+      "y": 250
     },
-    "no_60": {
-      "x": 737,
-      "y": 659
+    "beorn": {
+      "nome": "Casa de Beorn",
+      "x": 912,
+      "y": 247
     },
-    "no_61": {
-      "x": 825,
-      "y": 681
+    "vau_antigo": {
+      "nome": "Vau Antigo do Anduin",
+      "x": 896,
+      "y": 278
     },
-    "no_62": {
-      "x": 844,
-      "y": 545
+    "portao_floresta": {
+      "nome": "Entrada do Caminho dos Elfos",
+      "x": 946,
+      "y": 227
     },
-    "no_63": {
-      "x": 819,
-      "y": 588
+    "rio_encantado": {
+      "nome": "Travessia do Rio Encantado",
+      "x": 1015,
+      "y": 216
     },
-    "no_64": {
-      "x": 872,
-      "y": 529
+    "thranduil": {
+      "nome": "Salões de Thranduil",
+      "x": 1065,
+      "y": 198
     },
-    "no_65": {
-      "x": 908,
+    "rio_floresta": {
+      "nome": "Desembocadura do Rio da Floresta",
+      "x": 1084,
+      "y": 205
+    },
+    "esgaroth": {
+      "nome": "Cidade do Lago — Esgaroth",
+      "x": 1088,
+      "y": 211
+    },
+    "dale": {
+      "nome": "Valle",
+      "x": 1090,
+      "y": 184
+    },
+    "erebor": {
+      "nome": "Erebor",
+      "x": 1087,
+      "y": 170
+    },
+    "porta_secreta": {
+      "nome": "Porta Secreta de Erebor",
+      "x": 1078,
+      "y": 169
+    },
+    "ravenhill": {
+      "nome": "Colina dos Corvos",
+      "x": 1080,
+      "y": 181
+    },
+    "colinas_ferro": {
+      "nome": "Colinas de Ferro",
+      "x": 1250,
+      "y": 184
+    },
+    "estrada_floresta": {
+      "nome": "Estrada Velha da Floresta",
+      "x": 1005,
+      "y": 277
+    },
+    "saida_floresta": {
+      "nome": "Saída da Estrada Velha da Floresta",
+      "x": 1090,
+      "y": 273
+    },
+    "campos_lis": {
+      "nome": "Campos de Lis",
+      "x": 922,
+      "y": 375
+    },
+    "rhosgobel": {
+      "nome": "Rhosgobel",
+      "x": 963,
+      "y": 420
+    },
+    "dol_guldur": {
+      "nome": "Dol Guldur",
+      "x": 1008,
+      "y": 473
+    },
+    "dorwinion": {
+      "nome": "Dorwinion",
+      "x": 1330,
+      "y": 425
+    },
+    "mar_rhun": {
+      "nome": "Margem ocidental do Mar de Rhûn",
+      "x": 1362,
+      "y": 462
+    },
+    "caras_galadhon": {
+      "nome": "Caras Galadhon",
+      "x": 861,
+      "y": 490
+    },
+    "cerin_amroth": {
+      "nome": "Cerin Amroth",
+      "x": 839,
+      "y": 478
+    },
+    "embarcadouro_lorien": {
+      "nome": "Embarcadouro de Lórien",
+      "x": 874,
+      "y": 498
+    },
+    "campo_celebrant": {
+      "nome": "Campo de Celebrant",
+      "x": 883,
       "y": 550
     },
-    "no_66": {
-      "x": 962,
-      "y": 654
+    "travessia_limlight": {
+      "nome": "Travessia do Limlight",
+      "x": 878,
+      "y": 568
     },
-    "no_67": {
-      "x": 962,
-      "y": 693
+    "sarn_gebir": {
+      "nome": "Sarn Gebir",
+      "x": 958,
+      "y": 698
     },
-    "no_68": {
-      "x": 862,
+    "portagem": {
+      "nome": "Passagem ao lado de Sarn Gebir",
+      "x": 948,
+      "y": 701
+    },
+    "argonath": {
+      "nome": "Argonath",
+      "x": 961,
+      "y": 714
+    },
+    "nen_hithoel": {
+      "nome": "Nen Hithoel",
+      "x": 966,
+      "y": 724
+    },
+    "parth_galen": {
+      "nome": "Parth Galen",
+      "x": 959,
+      "y": 733
+    },
+    "amon_hen": {
+      "nome": "Amon Hen",
+      "x": 954,
+      "y": 730
+    },
+    "amon_lhaw": {
+      "nome": "Amon Lhaw",
+      "x": 978,
+      "y": 732
+    },
+    "escada_norte": {
+      "nome": "Escada Norte de Rauros",
+      "x": 975,
+      "y": 740
+    },
+    "pe_rauros": {
+      "nome": "Pé de Rauros",
+      "x": 976,
+      "y": 746
+    },
+    "emyn_muil": {
+      "nome": "Emyn Muil — lado oriental",
+      "x": 996,
+      "y": 705
+    },
+    "pantanos_mortos": {
+      "nome": "Pântanos Mortos",
+      "x": 1022,
+      "y": 742
+    },
+    "dagorlad": {
+      "nome": "Dagorlad",
+      "x": 1062,
+      "y": 704
+    },
+    "terras_castanhas": {
+      "nome": "Terras Castanhas",
+      "x": 1030,
+      "y": 587
+    },
+    "wellinghall": {
+      "nome": "Gruta da Nascente",
+      "x": 780,
+      "y": 606
+    },
+    "derndingle": {
+      "nome": "Valarcano",
+      "x": 804,
+      "y": 615
+    },
+    "travessia_entwash": {
+      "nome": "Travessia do Entágua",
+      "x": 849,
       "y": 665
     },
-    "no_69": {
-      "x": 923,
-      "y": 687
+    "eastemnet": {
+      "nome": "Estemnete",
+      "x": 901,
+      "y": 690
     },
-    "no_70": {
-      "x": 858,
-      "y": 764
+    "dunharrow": {
+      "nome": "Templo da Colina",
+      "x": 793,
+      "y": 773
     },
-    "no_71": {
-      "x": 930,
-      "y": 785
+    "dimholt": {
+      "nome": "Bosque de Dimholt",
+      "x": 800,
+      "y": 775
     },
-    "no_72": {
-      "x": 988,
+    "caminhos_mortos": {
+      "nome": "Caminhos dos Mortos",
+      "x": 803,
+      "y": 788
+    },
+    "saida_mortos": {
+      "nome": "Saída dos Caminhos dos Mortos",
+      "x": 798,
+      "y": 805
+    },
+    "erech": {
+      "nome": "Erech",
+      "x": 795,
       "y": 813
     },
-    "no_73": {
-      "x": 974,
-      "y": 756
+    "calembel": {
+      "nome": "Calembel",
+      "x": 854,
+      "y": 875
     },
-    "no_74": {
+    "linhir": {
+      "nome": "Linhir",
+      "x": 899,
+      "y": 950
+    },
+    "pelargir": {
+      "nome": "Pelargir",
       "x": 1000,
-      "y": 776
+      "y": 966
     },
-    "no_75": {
-      "x": 1010,
-      "y": 823
+    "dol_amroth": {
+      "nome": "Dol Amroth",
+      "x": 767,
+      "y": 936
     },
-    "no_76": {
+    "edhellond": {
+      "nome": "Edhellond",
+      "x": 790,
+      "y": 901
+    },
+    "vau_erui": {
+      "nome": "Travessia do Erui",
+      "x": 1031,
+      "y": 907
+    },
+    "harlond_gondor": {
+      "nome": "Harlond de Gondor",
       "x": 1048,
-      "y": 798
+      "y": 864
     },
-    "no_77": {
-      "x": 1096,
-      "y": 821
+    "pelennor": {
+      "nome": "Campos do Pelennor",
+      "x": 1043,
+      "y": 840
     },
-    "no_78": {
-      "x": 1065,
-      "y": 790
+    "mering": {
+      "nome": "Travessia do Mering",
+      "x": 907,
+      "y": 815
     },
-    "no_79": {
-      "x": 1063,
-      "y": 765
+    "halifirien": {
+      "nome": "Halifirien",
+      "x": 906,
+      "y": 830
     },
-    "no_80": {
-      "x": 1144,
-      "y": 792
+    "druadan": {
+      "nome": "Floresta Drúadan",
+      "x": 995,
+      "y": 820
     },
-    "no_81": {
-      "x": 1116,
+    "stonewain": {
+      "nome": "Vale das Carroças de Pedra",
+      "x": 994,
+      "y": 830
+    },
+    "amon_din": {
+      "nome": "Amon Dîn",
+      "x": 1016,
+      "y": 825
+    },
+    "rammas_echor": {
+      "nome": "Rammas Echor — portão norte",
+      "x": 1034,
+      "y": 832
+    },
+    "henneth_annun": {
+      "nome": "Henneth Annûn",
+      "x": 1047,
+      "y": 777
+    },
+    "cormallen": {
+      "nome": "Campo de Cormallen",
+      "x": 1036,
+      "y": 789
+    },
+    "emyn_arnen": {
+      "nome": "Emyn Arnen",
+      "x": 1072,
+      "y": 881
+    },
+    "poros": {
+      "nome": "Travessias do Poros",
+      "x": 1062,
+      "y": 984
+    },
+    "harondor": {
+      "nome": "Harondor",
+      "x": 1036,
+      "y": 1077
+    },
+    "vale_morgul": {
+      "nome": "Vale de Morgul",
+      "x": 1084,
+      "y": 836
+    },
+    "passagem_morgul": {
+      "nome": "Passagem de Morgul",
+      "x": 1110,
+      "y": 841
+    },
+    "escadas_cirith": {
+      "nome": "Escadas de Cirith Ungol",
+      "x": 1090,
+      "y": 827
+    },
+    "laracna": {
+      "nome": "Toca de Laracna",
+      "x": 1100,
+      "y": 824
+    },
+    "torre_cirith": {
+      "nome": "Torre de Cirith Ungol",
+      "x": 1110,
+      "y": 828
+    },
+    "morgai": {
+      "nome": "Morgai",
+      "x": 1107,
+      "y": 806
+    },
+    "gorgoroth": {
+      "nome": "Planalto de Gorgoroth",
+      "x": 1176,
       "y": 854
     },
+    "barad_dur": {
+      "nome": "Barad-dûr",
+      "x": 1203,
+      "y": 800
+    },
+    "sammath_naur": {
+      "nome": "Sammath Naur",
+      "x": 1157,
+      "y": 807
+    },
+    "nurn": {
+      "nome": "Nurn",
+      "x": 1201,
+      "y": 920
+    },
+    "mar_nurnen": {
+      "nome": "Margem do Mar de Núrnen",
+      "x": 1282,
+      "y": 945
+    },
+    "no_35": {
+      "x": 403,
+      "y": 327
+    },
+    "no_36": {
+      "x": 424,
+      "y": 314
+    },
+    "no_37": {
+      "x": 441,
+      "y": 332
+    },
+    "no_38": {
+      "x": 506,
+      "y": 319
+    },
+    "no_39": {
+      "x": 590,
+      "y": 308
+    },
+    "no_40": {
+      "x": 527,
+      "y": 403
+    },
+    "no_41": {
+      "x": 740,
+      "y": 366
+    },
+    "no_42": {
+      "x": 744,
+      "y": 437
+    },
+    "no_43": {
+      "x": 769,
+      "y": 438
+    },
+    "no_44": {
+      "x": 850,
+      "y": 285
+    },
+    "no_45": {
+      "x": 884,
+      "y": 251
+    },
+    "no_46": {
+      "x": 896,
+      "y": 251
+    },
+    "no_47": {
+      "x": 892,
+      "y": 279
+    },
+    "no_48": {
+      "x": 901,
+      "y": 277
+    },
+    "no_49": {
+      "x": 899,
+      "y": 370
+    },
+    "no_50": {
+      "x": 914,
+      "y": 373
+    },
+    "no_51": {
+      "x": 942,
+      "y": 408
+    },
+    "no_52": {
+      "x": 1099,
+      "y": 281
+    },
+    "no_53": {
+      "x": 1107,
+      "y": 284
+    },
+    "no_54": {
+      "x": 1299,
+      "y": 360
+    },
+    "no_55": {
+      "x": 881,
+      "y": 498
+    },
+    "no_56": {
+      "x": 920,
+      "y": 590
+    },
+    "no_57": {
+      "x": 938,
+      "y": 583
+    },
+    "no_58": {
+      "x": 936,
+      "y": 613
+    },
+    "no_59": {
+      "x": 951,
+      "y": 615
+    },
+    "no_60": {
+      "x": 957,
+      "y": 709
+    },
+    "no_61": {
+      "x": 976,
+      "y": 724
+    },
+    "no_62": {
+      "x": 713,
+      "y": 691
+    },
+    "no_63": {
+      "x": 748,
+      "y": 709
+    },
+    "no_64": {
+      "x": 781,
+      "y": 739
+    },
+    "no_65": {
+      "x": 979,
+      "y": 815
+    },
+    "no_66": {
+      "x": 1013,
+      "y": 816
+    },
+    "no_67": {
+      "x": 1011,
+      "y": 796
+    },
+    "no_68": {
+      "x": 1025,
+      "y": 798
+    },
+    "no_69": {
+      "x": 1055,
+      "y": 850
+    },
+    "no_70": {
+      "x": 1065,
+      "y": 850
+    },
+    "no_71": {
+      "x": 1064,
+      "y": 779
+    },
+    "no_72": {
+      "x": 1073,
+      "y": 910
+    },
+    "no_73": {
+      "x": 1086,
+      "y": 834
+    },
+    "no_74": {
+      "x": 1118,
+      "y": 843
+    },
+    "no_75": {
+      "x": 1133,
+      "y": 790
+    },
+    "no_76": {
+      "x": 1167,
+      "y": 794
+    },
+    "no_77": {
+      "x": 1175,
+      "y": 808
+    },
+    "no_78": {
+      "x": 1156,
+      "y": 817
+    },
+    "no_79": {
+      "x": 889,
+      "y": 932
+    },
+    "no_80": {
+      "x": 862,
+      "y": 879
+    },
+    "no_81": {
+      "x": 850,
+      "y": 875
+    },
     "no_82": {
-      "x": 1144,
-      "y": 849
+      "x": 870,
+      "y": 888
+    },
+    "no_83": {
+      "x": 901,
+      "y": 951
+    },
+    "no_84": {
+      "x": 1030,
+      "y": 912
+    },
+    "no_85": {
+      "x": 1010,
+      "y": 968
+    },
+    "no_86": {
+      "x": 1062,
+      "y": 979
+    },
+    "no_87": {
+      "x": 1062,
+      "y": 989
+    },
+    "no_88": {
+      "x": 787,
+      "y": 944
+    },
+    "no_89": {
+      "x": 246,
+      "y": 275
+    },
+    "no_90": {
+      "x": 274,
+      "y": 263
+    },
+    "no_91": {
+      "x": 218,
+      "y": 267
+    },
+    "no_92": {
+      "x": 210,
+      "y": 234
+    },
+    "no_93": {
+      "x": 308,
+      "y": 284
+    },
+    "no_94": {
+      "x": 313,
+      "y": 309
+    },
+    "no_95": {
+      "x": 277,
+      "y": 341
+    },
+    "no_96": {
+      "x": 249,
+      "y": 354
+    },
+    "no_97": {
+      "x": 220,
+      "y": 358
+    },
+    "no_98": {
+      "x": 339,
+      "y": 333
+    },
+    "no_99": {
+      "x": 387,
+      "y": 334
+    },
+    "no_100": {
+      "x": 421,
+      "y": 365
+    },
+    "no_101": {
+      "x": 432,
+      "y": 339
+    },
+    "no_102": {
+      "x": 446,
+      "y": 307
+    },
+    "no_103": {
+      "x": 453,
+      "y": 314
+    },
+    "no_104": {
+      "x": 471,
+      "y": 340
+    },
+    "no_105": {
+      "x": 495,
+      "y": 322
+    },
+    "no_106": {
+      "x": 466,
+      "y": 300
+    },
+    "no_107": {
+      "x": 484,
+      "y": 302
+    },
+    "no_108": {
+      "x": 525,
+      "y": 312
+    },
+    "no_109": {
+      "x": 562,
+      "y": 311
+    },
+    "no_110": {
+      "x": 569,
+      "y": 295
+    },
+    "no_111": {
+      "x": 615,
+      "y": 307
+    },
+    "no_112": {
+      "x": 642,
+      "y": 297
+    },
+    "no_113": {
+      "x": 664,
+      "y": 286
+    },
+    "no_114": {
+      "x": 711,
+      "y": 286
+    },
+    "no_115": {
+      "x": 745,
+      "y": 300
+    },
+    "no_116": {
+      "x": 509,
+      "y": 285
+    },
+    "no_117": {
+      "x": 501,
+      "y": 253
+    },
+    "no_118": {
+      "x": 451,
+      "y": 235
+    },
+    "no_119": {
+      "x": 418,
+      "y": 246
+    },
+    "no_120": {
+      "x": 427,
+      "y": 279
+    },
+    "no_121": {
+      "x": 401,
+      "y": 265
+    },
+    "no_122": {
+      "x": 495,
+      "y": 191
+    },
+    "no_123": {
+      "x": 516,
+      "y": 151
+    },
+    "no_124": {
+      "x": 537,
+      "y": 105
+    },
+    "no_125": {
+      "x": 583,
+      "y": 106
+    },
+    "no_126": {
+      "x": 626,
+      "y": 133
+    },
+    "no_127": {
+      "x": 675,
+      "y": 164
+    },
+    "no_128": {
+      "x": 742,
+      "y": 208
+    },
+    "no_129": {
+      "x": 752,
+      "y": 246
+    },
+    "no_130": {
+      "x": 505,
+      "y": 356
+    },
+    "no_131": {
+      "x": 505,
+      "y": 383
+    },
+    "no_132": {
+      "x": 550,
+      "y": 430
+    },
+    "no_133": {
+      "x": 486,
+      "y": 397
+    },
+    "no_134": {
+      "x": 599,
+      "y": 510
+    },
+    "no_135": {
+      "x": 618,
+      "y": 547
+    },
+    "no_136": {
+      "x": 648,
+      "y": 608
+    },
+    "no_137": {
+      "x": 665,
+      "y": 654
+    },
+    "no_138": {
+      "x": 542,
+      "y": 505
+    },
+    "no_139": {
+      "x": 512,
+      "y": 535
+    },
+    "no_140": {
+      "x": 486,
+      "y": 575
+    },
+    "no_141": {
+      "x": 407,
+      "y": 590
+    },
+    "no_142": {
+      "x": 368,
+      "y": 568
+    },
+    "no_143": {
+      "x": 771,
+      "y": 318
+    },
+    "no_144": {
+      "x": 750,
+      "y": 341
+    },
+    "no_145": {
+      "x": 726,
+      "y": 396
+    },
+    "no_146": {
+      "x": 806,
+      "y": 457
+    },
+    "no_147": {
+      "x": 750,
+      "y": 451
+    },
+    "no_148": {
+      "x": 682,
+      "y": 451
+    },
+    "no_149": {
+      "x": 625,
+      "y": 459
+    },
+    "no_150": {
+      "x": 706,
+      "y": 488
+    },
+    "no_151": {
+      "x": 680,
+      "y": 527
+    },
+    "no_152": {
+      "x": 801,
+      "y": 284
+    },
+    "no_153": {
+      "x": 835,
+      "y": 268
+    },
+    "no_154": {
+      "x": 861,
+      "y": 270
+    },
+    "no_155": {
+      "x": 887,
+      "y": 267
+    },
+    "no_156": {
+      "x": 909,
+      "y": 263
+    },
+    "no_157": {
+      "x": 877,
+      "y": 219
+    },
+    "no_158": {
+      "x": 861,
+      "y": 187
+    },
+    "no_159": {
+      "x": 844,
+      "y": 164
+    },
+    "no_160": {
+      "x": 819,
+      "y": 143
+    },
+    "no_161": {
+      "x": 929,
+      "y": 234
+    },
+    "no_162": {
+      "x": 967,
+      "y": 224
+    },
+    "no_163": {
+      "x": 990,
+      "y": 220
+    },
+    "no_164": {
+      "x": 1035,
+      "y": 208
+    },
+    "no_165": {
+      "x": 1074,
+      "y": 201
+    },
+    "no_166": {
+      "x": 1086,
+      "y": 195
+    },
+    "no_167": {
+      "x": 1075,
+      "y": 177
+    },
+    "no_168": {
+      "x": 1124,
+      "y": 181
+    },
+    "no_169": {
+      "x": 1170,
+      "y": 173
+    },
+    "no_170": {
+      "x": 1213,
+      "y": 174
+    },
+    "no_171": {
+      "x": 940,
+      "y": 277
+    },
+    "no_172": {
+      "x": 972,
+      "y": 277
+    },
+    "no_173": {
+      "x": 1045,
+      "y": 276
+    },
+    "no_174": {
+      "x": 1132,
+      "y": 254
+    },
+    "no_175": {
+      "x": 1166,
+      "y": 227
+    },
+    "no_176": {
+      "x": 1209,
+      "y": 206
+    },
+    "no_177": {
+      "x": 1085,
+      "y": 248
+    },
+    "no_178": {
+      "x": 1081,
+      "y": 227
+    },
+    "no_179": {
+      "x": 897,
+      "y": 310
+    },
+    "no_180": {
+      "x": 902,
+      "y": 340
+    },
+    "no_181": {
+      "x": 916,
+      "y": 309
+    },
+    "no_182": {
+      "x": 923,
+      "y": 340
+    },
+    "no_183": {
+      "x": 890,
+      "y": 399
+    },
+    "no_184": {
+      "x": 878,
+      "y": 431
+    },
+    "no_185": {
+      "x": 857,
+      "y": 454
+    },
+    "no_186": {
+      "x": 932,
+      "y": 390
+    },
+    "no_187": {
+      "x": 925,
+      "y": 438
+    },
+    "no_188": {
+      "x": 924,
+      "y": 474
+    },
+    "no_189": {
+      "x": 982,
+      "y": 440
+    },
+    "no_190": {
+      "x": 969,
+      "y": 490
+    },
+    "no_191": {
+      "x": 935,
+      "y": 501
+    },
+    "no_192": {
+      "x": 1094,
+      "y": 238
+    },
+    "no_193": {
+      "x": 1094,
+      "y": 260
+    },
+    "no_194": {
+      "x": 1122,
+      "y": 308
+    },
+    "no_195": {
+      "x": 1155,
+      "y": 334
+    },
+    "no_196": {
+      "x": 1201,
+      "y": 347
+    },
+    "no_197": {
+      "x": 1246,
+      "y": 349
+    },
+    "no_198": {
+      "x": 1308,
+      "y": 388
+    },
+    "no_199": {
+      "x": 1341,
+      "y": 414
+    },
+    "no_200": {
+      "x": 881,
+      "y": 523
+    },
+    "no_201": {
+      "x": 901,
+      "y": 543
+    },
+    "no_202": {
+      "x": 930,
+      "y": 555
+    },
+    "no_203": {
+      "x": 931,
+      "y": 570
+    },
+    "no_204": {
+      "x": 937,
+      "y": 595
+    },
+    "no_205": {
+      "x": 957,
+      "y": 593
+    },
+    "no_206": {
+      "x": 962,
+      "y": 600
+    },
+    "no_207": {
+      "x": 951,
+      "y": 608
+    },
+    "no_208": {
+      "x": 956,
+      "y": 629
+    },
+    "no_209": {
+      "x": 963,
+      "y": 649
+    },
+    "no_210": {
+      "x": 960,
+      "y": 673
+    },
+    "no_211": {
+      "x": 956,
+      "y": 687
+    },
+    "no_212": {
+      "x": 969,
+      "y": 583
+    },
+    "no_213": {
+      "x": 986,
+      "y": 614
+    },
+    "no_214": {
+      "x": 1015,
+      "y": 528
+    },
+    "no_215": {
+      "x": 1044,
+      "y": 635
+    },
+    "no_216": {
+      "x": 1063,
+      "y": 671
+    },
+    "no_217": {
+      "x": 852,
+      "y": 517
+    },
+    "no_218": {
+      "x": 858,
+      "y": 594
+    },
+    "no_219": {
+      "x": 835,
+      "y": 624
+    },
+    "no_220": {
+      "x": 903,
+      "y": 568
+    },
+    "no_221": {
+      "x": 902,
+      "y": 600
+    },
+    "no_222": {
+      "x": 921,
+      "y": 650
+    },
+    "no_223": {
+      "x": 951,
+      "y": 695
+    },
+    "no_224": {
+      "x": 949,
+      "y": 707
+    },
+    "no_225": {
+      "x": 983,
+      "y": 718
+    },
+    "no_226": {
+      "x": 987,
+      "y": 707
+    },
+    "no_227": {
+      "x": 1013,
+      "y": 715
+    },
+    "no_228": {
+      "x": 1045,
+      "y": 743
+    },
+    "no_229": {
+      "x": 1068,
+      "y": 743
+    },
+    "no_230": {
+      "x": 1074,
+      "y": 724
+    },
+    "no_231": {
+      "x": 944,
+      "y": 729
+    },
+    "no_232": {
+      "x": 927,
+      "y": 716
+    },
+    "no_233": {
+      "x": 776,
+      "y": 660
+    },
+    "no_234": {
+      "x": 749,
+      "y": 673
+    },
+    "no_235": {
+      "x": 724,
+      "y": 681
+    },
+    "no_236": {
+      "x": 852,
+      "y": 700
+    },
+    "no_237": {
+      "x": 843,
+      "y": 733
+    },
+    "no_238": {
+      "x": 814,
+      "y": 740
+    },
+    "no_239": {
+      "x": 697,
+      "y": 656
+    },
+    "no_240": {
+      "x": 728,
+      "y": 701
+    },
+    "no_241": {
+      "x": 765,
+      "y": 727
+    },
+    "no_242": {
+      "x": 788,
+      "y": 759
+    },
+    "no_243": {
+      "x": 823,
+      "y": 771
+    },
+    "no_244": {
+      "x": 859,
+      "y": 791
+    },
+    "no_245": {
+      "x": 883,
+      "y": 810
+    },
+    "no_246": {
+      "x": 936,
+      "y": 814
+    },
+    "no_247": {
+      "x": 959,
+      "y": 814
+    },
+    "no_248": {
+      "x": 1024,
+      "y": 824
+    },
+    "no_249": {
+      "x": 1011,
+      "y": 835
+    },
+    "no_250": {
+      "x": 984,
+      "y": 768
+    },
+    "no_251": {
+      "x": 1001,
+      "y": 787
+    },
+    "no_252": {
+      "x": 1014,
+      "y": 809
+    },
+    "no_253": {
+      "x": 783,
+      "y": 832
+    },
+    "no_254": {
+      "x": 780,
+      "y": 850
+    },
+    "no_255": {
+      "x": 801,
+      "y": 865
+    },
+    "no_256": {
+      "x": 828,
+      "y": 872
+    },
+    "no_257": {
+      "x": 881,
+      "y": 907
+    },
+    "no_258": {
+      "x": 924,
+      "y": 964
+    },
+    "no_259": {
+      "x": 957,
+      "y": 968
+    },
+    "no_260": {
+      "x": 822,
+      "y": 887
+    },
+    "no_261": {
+      "x": 780,
+      "y": 922
+    },
+    "no_262": {
+      "x": 799,
+      "y": 960
+    },
+    "no_263": {
+      "x": 826,
+      "y": 969
+    },
+    "no_264": {
+      "x": 860,
+      "y": 965
+    },
+    "no_265": {
+      "x": 882,
+      "y": 956
+    },
+    "no_266": {
+      "x": 1039,
+      "y": 870
+    },
+    "no_267": {
+      "x": 1038,
+      "y": 889
+    },
+    "no_268": {
+      "x": 1020,
+      "y": 940
+    },
+    "no_269": {
+      "x": 1022,
+      "y": 941
+    },
+    "no_270": {
+      "x": 1036,
+      "y": 920
+    },
+    "no_271": {
+      "x": 1041,
+      "y": 894
+    },
+    "no_272": {
+      "x": 1046,
+      "y": 848
+    },
+    "no_273": {
+      "x": 1066,
+      "y": 756
+    },
+    "no_274": {
+      "x": 1066,
+      "y": 810
+    },
+    "no_275": {
+      "x": 1076,
+      "y": 860
+    },
+    "no_276": {
+      "x": 1067,
+      "y": 945
+    },
+    "no_277": {
+      "x": 1047,
+      "y": 1021
+    },
+    "no_278": {
+      "x": 1038,
+      "y": 975
+    },
+    "no_279": {
+      "x": 1101,
+      "y": 842
+    },
+    "no_280": {
+      "x": 1133,
+      "y": 845
+    },
+    "no_281": {
+      "x": 1154,
+      "y": 850
+    },
+    "no_282": {
+      "x": 1107,
+      "y": 817
+    },
+    "no_283": {
+      "x": 1109,
+      "y": 796
+    },
+    "no_284": {
+      "x": 1116,
+      "y": 787
+    },
+    "no_285": {
+      "x": 1116,
+      "y": 768
+    },
+    "no_286": {
+      "x": 1150,
+      "y": 791
+    },
+    "no_287": {
+      "x": 1187,
+      "y": 793
+    },
+    "no_288": {
+      "x": 1137,
+      "y": 809
+    },
+    "no_289": {
+      "x": 1143,
+      "y": 827
+    },
+    "no_290": {
+      "x": 1150,
+      "y": 828
+    },
+    "no_291": {
+      "x": 1188,
+      "y": 805
+    },
+    "no_292": {
+      "x": 1184,
+      "y": 881
+    },
+    "no_293": {
+      "x": 1241,
+      "y": 934
     }
   },
   "arestas": [
     {
+      "origem": "forlond",
+      "destino": "no_89"
+    },
+    {
+      "origem": "no_89",
+      "destino": "no_90"
+    },
+    {
+      "origem": "no_90",
+      "destino": "portos"
+    },
+    {
+      "origem": "forlond",
+      "destino": "no_91"
+    },
+    {
+      "origem": "no_91",
+      "destino": "no_92"
+    },
+    {
+      "origem": "no_92",
+      "destino": "montanhas_azuis"
+    },
+    {
       "origem": "portos",
+      "destino": "no_93"
+    },
+    {
+      "origem": "no_93",
+      "destino": "no_94"
+    },
+    {
+      "origem": "no_94",
+      "destino": "torres"
+    },
+    {
+      "origem": "torres",
+      "destino": "no_95"
+    },
+    {
+      "origem": "no_95",
+      "destino": "no_96"
+    },
+    {
+      "origem": "no_96",
+      "destino": "no_97"
+    },
+    {
+      "origem": "no_97",
+      "destino": "harlond_lindon"
+    },
+    {
+      "origem": "torres",
+      "destino": "no_98"
+    },
+    {
+      "origem": "no_98",
+      "destino": "waymeet"
+    },
+    {
+      "origem": "waymeet",
       "destino": "no_35"
     },
     {
       "origem": "no_35",
-      "destino": "hobbiton"
-    },
-    {
-      "origem": "hobbiton",
       "destino": "no_36"
     },
     {
@@ -388,35 +1863,203 @@
       "destino": "ponte"
     },
     {
-      "origem": "ponte",
-      "destino": "bri"
+      "origem": "waymeet",
+      "destino": "michel_delving"
     },
     {
-      "origem": "bri",
+      "origem": "hobbiton",
+      "destino": "bolsao"
+    },
+    {
+      "origem": "hobbiton",
+      "destino": "bywater"
+    },
+    {
+      "origem": "bywater",
+      "destino": "no_35"
+    },
+    {
+      "origem": "waymeet",
+      "destino": "no_99"
+    },
+    {
+      "origem": "no_99",
+      "destino": "tuckborough"
+    },
+    {
+      "origem": "tuckborough",
+      "destino": "no_100"
+    },
+    {
+      "origem": "no_100",
+      "destino": "sarn"
+    },
+    {
+      "origem": "no_35",
+      "destino": "woodhall"
+    },
+    {
+      "origem": "woodhall",
+      "destino": "stock"
+    },
+    {
+      "origem": "stock",
+      "destino": "no_36"
+    },
+    {
+      "origem": "woodhall",
+      "destino": "no_101"
+    },
+    {
+      "origem": "no_101",
+      "destino": "bamfurlong"
+    },
+    {
+      "origem": "bamfurlong",
       "destino": "no_37"
     },
     {
       "origem": "no_37",
-      "destino": "fornost"
+      "destino": "balsa"
     },
     {
-      "origem": "bri",
-      "destino": "topo"
+      "origem": "balsa",
+      "destino": "bucklebury"
     },
     {
-      "origem": "topo",
+      "origem": "bucklebury",
+      "destino": "crickhollow"
+    },
+    {
+      "origem": "ponte",
+      "destino": "no_102"
+    },
+    {
+      "origem": "no_102",
+      "destino": "no_103"
+    },
+    {
+      "origem": "no_103",
+      "destino": "crickhollow"
+    },
+    {
+      "origem": "crickhollow",
+      "destino": "floresta_velha"
+    },
+    {
+      "origem": "floresta_velha",
+      "destino": "no_104"
+    },
+    {
+      "origem": "no_104",
+      "destino": "tom_bombadil"
+    },
+    {
+      "origem": "tom_bombadil",
+      "destino": "colinas_tumulos"
+    },
+    {
+      "origem": "colinas_tumulos",
+      "destino": "no_105"
+    },
+    {
+      "origem": "no_105",
       "destino": "no_38"
     },
     {
       "origem": "no_38",
-      "destino": "ultima"
+      "destino": "bri"
     },
     {
-      "origem": "ultima",
+      "origem": "ponte",
+      "destino": "no_106"
+    },
+    {
+      "origem": "no_106",
+      "destino": "no_107"
+    },
+    {
+      "origem": "no_107",
+      "destino": "no_38"
+    },
+    {
+      "origem": "bri",
+      "destino": "staddle"
+    },
+    {
+      "origem": "staddle",
+      "destino": "combe"
+    },
+    {
+      "origem": "combe",
+      "destino": "archet"
+    },
+    {
+      "origem": "archet",
+      "destino": "chetwood"
+    },
+    {
+      "origem": "bri",
+      "destino": "combe"
+    },
+    {
+      "origem": "bri",
+      "destino": "no_108"
+    },
+    {
+      "origem": "no_108",
+      "destino": "estalagem"
+    },
+    {
+      "origem": "estalagem",
+      "destino": "no_109"
+    },
+    {
+      "origem": "no_109",
+      "destino": "no_39"
+    },
+    {
+      "origem": "chetwood",
+      "destino": "mosquitos"
+    },
+    {
+      "origem": "mosquitos",
+      "destino": "no_110"
+    },
+    {
+      "origem": "no_110",
+      "destino": "topo"
+    },
+    {
+      "origem": "topo",
       "destino": "no_39"
     },
     {
       "origem": "no_39",
+      "destino": "no_111"
+    },
+    {
+      "origem": "no_111",
+      "destino": "no_112"
+    },
+    {
+      "origem": "no_112",
+      "destino": "no_113"
+    },
+    {
+      "origem": "no_113",
+      "destino": "ultima"
+    },
+    {
+      "origem": "ultima",
+      "destino": "no_114"
+    },
+    {
+      "origem": "no_114",
+      "destino": "no_115"
+    },
+    {
+      "origem": "no_115",
       "destino": "vau"
     },
     {
@@ -424,23 +2067,191 @@
       "destino": "valfenda"
     },
     {
-      "origem": "hobbiton",
+      "origem": "no_38",
+      "destino": "no_116"
+    },
+    {
+      "origem": "no_116",
+      "destino": "no_117"
+    },
+    {
+      "origem": "no_117",
+      "destino": "fornost"
+    },
+    {
+      "origem": "fornost",
+      "destino": "no_118"
+    },
+    {
+      "origem": "no_118",
+      "destino": "no_119"
+    },
+    {
+      "origem": "no_119",
+      "destino": "annuminas"
+    },
+    {
+      "origem": "annuminas",
+      "destino": "nenuial"
+    },
+    {
+      "origem": "ponte",
+      "destino": "no_120"
+    },
+    {
+      "origem": "no_120",
+      "destino": "no_121"
+    },
+    {
+      "origem": "no_121",
+      "destino": "annuminas"
+    },
+    {
+      "origem": "fornost",
+      "destino": "no_122"
+    },
+    {
+      "origem": "no_122",
+      "destino": "no_123"
+    },
+    {
+      "origem": "no_123",
+      "destino": "no_124"
+    },
+    {
+      "origem": "no_124",
+      "destino": "carn_dum"
+    },
+    {
+      "origem": "carn_dum",
+      "destino": "no_125"
+    },
+    {
+      "origem": "no_125",
+      "destino": "no_126"
+    },
+    {
+      "origem": "no_126",
+      "destino": "no_127"
+    },
+    {
+      "origem": "no_127",
+      "destino": "ettenmoors"
+    },
+    {
+      "origem": "ettenmoors",
+      "destino": "no_128"
+    },
+    {
+      "origem": "no_128",
+      "destino": "no_129"
+    },
+    {
+      "origem": "no_129",
+      "destino": "valfenda"
+    },
+    {
+      "origem": "no_38",
+      "destino": "no_130"
+    },
+    {
+      "origem": "no_130",
+      "destino": "no_131"
+    },
+    {
+      "origem": "no_131",
       "destino": "no_40"
     },
     {
       "origem": "no_40",
-      "destino": "sarn"
+      "destino": "no_132"
+    },
+    {
+      "origem": "no_132",
+      "destino": "tharbad"
     },
     {
       "origem": "sarn",
+      "destino": "no_133"
+    },
+    {
+      "origem": "no_133",
+      "destino": "no_40"
+    },
+    {
+      "origem": "tharbad",
+      "destino": "no_134"
+    },
+    {
+      "origem": "no_134",
+      "destino": "no_135"
+    },
+    {
+      "origem": "no_135",
+      "destino": "dunland"
+    },
+    {
+      "origem": "dunland",
+      "destino": "no_136"
+    },
+    {
+      "origem": "no_136",
+      "destino": "no_137"
+    },
+    {
+      "origem": "no_137",
+      "destino": "isen"
+    },
+    {
+      "origem": "tharbad",
+      "destino": "no_138"
+    },
+    {
+      "origem": "no_138",
+      "destino": "no_139"
+    },
+    {
+      "origem": "no_139",
+      "destino": "no_140"
+    },
+    {
+      "origem": "no_140",
+      "destino": "lond_daer"
+    },
+    {
+      "origem": "lond_daer",
+      "destino": "no_141"
+    },
+    {
+      "origem": "no_141",
+      "destino": "no_142"
+    },
+    {
+      "origem": "no_142",
+      "destino": "eryn_vorn"
+    },
+    {
+      "origem": "valfenda",
+      "destino": "no_143"
+    },
+    {
+      "origem": "no_143",
+      "destino": "no_144"
+    },
+    {
+      "origem": "no_144",
       "destino": "no_41"
     },
     {
       "origem": "no_41",
-      "destino": "tharbad"
+      "destino": "no_145"
     },
     {
-      "origem": "bri",
+      "origem": "no_145",
+      "destino": "eregion"
+    },
+    {
+      "origem": "eregion",
       "destino": "no_42"
     },
     {
@@ -449,59 +2260,23 @@
     },
     {
       "origem": "no_43",
-      "destino": "tharbad"
-    },
-    {
-      "origem": "tharbad",
-      "destino": "no_44"
-    },
-    {
-      "origem": "no_44",
-      "destino": "dunland"
-    },
-    {
-      "origem": "dunland",
-      "destino": "no_45"
-    },
-    {
-      "origem": "no_45",
-      "destino": "no_46"
-    },
-    {
-      "origem": "no_46",
-      "destino": "isen"
-    },
-    {
-      "origem": "valfenda",
-      "destino": "no_47"
-    },
-    {
-      "origem": "no_47",
-      "destino": "no_48"
-    },
-    {
-      "origem": "no_48",
-      "destino": "moria_o"
-    },
-    {
-      "origem": "valfenda",
-      "destino": "no_49"
-    },
-    {
-      "origem": "no_49",
-      "destino": "no_50"
-    },
-    {
-      "origem": "no_50",
       "destino": "caradhras"
     },
     {
       "origem": "caradhras",
-      "destino": "no_51"
+      "destino": "no_146"
     },
     {
-      "origem": "no_51",
-      "destino": "lorien"
+      "origem": "no_146",
+      "destino": "dimrill"
+    },
+    {
+      "origem": "no_42",
+      "destino": "no_147"
+    },
+    {
+      "origem": "no_147",
+      "destino": "moria_o"
     },
     {
       "origem": "moria_o",
@@ -509,203 +2284,1223 @@
     },
     {
       "origem": "moria_l",
+      "destino": "dimrill"
+    },
+    {
+      "origem": "moria_l",
+      "destino": "kheled_zaram"
+    },
+    {
+      "origem": "kheled_zaram",
+      "destino": "lorien"
+    },
+    {
+      "origem": "dimrill",
+      "destino": "lorien"
+    },
+    {
+      "origem": "lorien",
+      "destino": "cerin_amroth"
+    },
+    {
+      "origem": "cerin_amroth",
+      "destino": "caras_galadhon"
+    },
+    {
+      "origem": "caras_galadhon",
+      "destino": "embarcadouro_lorien"
+    },
+    {
+      "origem": "no_42",
+      "destino": "ost_in_edhil"
+    },
+    {
+      "origem": "ost_in_edhil",
+      "destino": "no_148"
+    },
+    {
+      "origem": "no_148",
+      "destino": "no_149"
+    },
+    {
+      "origem": "no_149",
+      "destino": "tharbad"
+    },
+    {
+      "origem": "ost_in_edhil",
+      "destino": "no_150"
+    },
+    {
+      "origem": "no_150",
+      "destino": "no_151"
+    },
+    {
+      "origem": "no_151",
+      "destino": "dunland"
+    },
+    {
+      "origem": "valfenda",
+      "destino": "no_152"
+    },
+    {
+      "origem": "no_152",
+      "destino": "passo_alto"
+    },
+    {
+      "origem": "passo_alto",
+      "destino": "no_44"
+    },
+    {
+      "origem": "no_44",
+      "destino": "no_47"
+    },
+    {
+      "origem": "passo_alto",
+      "destino": "goblin_town"
+    },
+    {
+      "origem": "goblin_town",
+      "destino": "lago_gollum"
+    },
+    {
+      "origem": "goblin_town",
+      "destino": "no_153"
+    },
+    {
+      "origem": "no_153",
+      "destino": "no_44"
+    },
+    {
+      "origem": "no_44",
+      "destino": "no_154"
+    },
+    {
+      "origem": "no_154",
+      "destino": "no_45"
+    },
+    {
+      "origem": "no_45",
+      "destino": "carrock"
+    },
+    {
+      "origem": "carrock",
+      "destino": "no_46"
+    },
+    {
+      "origem": "no_46",
+      "destino": "beorn"
+    },
+    {
+      "origem": "no_45",
+      "destino": "no_155"
+    },
+    {
+      "origem": "no_155",
+      "destino": "no_47"
+    },
+    {
+      "origem": "no_47",
+      "destino": "vau_antigo"
+    },
+    {
+      "origem": "vau_antigo",
+      "destino": "no_48"
+    },
+    {
+      "origem": "no_48",
+      "destino": "no_156"
+    },
+    {
+      "origem": "no_156",
+      "destino": "beorn"
+    },
+    {
+      "origem": "no_45",
+      "destino": "no_157"
+    },
+    {
+      "origem": "no_157",
+      "destino": "no_158"
+    },
+    {
+      "origem": "no_158",
+      "destino": "no_159"
+    },
+    {
+      "origem": "no_159",
+      "destino": "no_160"
+    },
+    {
+      "origem": "no_160",
+      "destino": "gundabad"
+    },
+    {
+      "origem": "beorn",
+      "destino": "no_161"
+    },
+    {
+      "origem": "no_161",
+      "destino": "portao_floresta"
+    },
+    {
+      "origem": "portao_floresta",
+      "destino": "no_162"
+    },
+    {
+      "origem": "no_162",
+      "destino": "no_163"
+    },
+    {
+      "origem": "no_163",
+      "destino": "rio_encantado"
+    },
+    {
+      "origem": "rio_encantado",
+      "destino": "no_164"
+    },
+    {
+      "origem": "no_164",
+      "destino": "thranduil"
+    },
+    {
+      "origem": "thranduil",
+      "destino": "no_165"
+    },
+    {
+      "origem": "no_165",
+      "destino": "rio_floresta"
+    },
+    {
+      "origem": "rio_floresta",
+      "destino": "esgaroth"
+    },
+    {
+      "origem": "esgaroth",
+      "destino": "no_166"
+    },
+    {
+      "origem": "no_166",
+      "destino": "dale"
+    },
+    {
+      "origem": "dale",
+      "destino": "erebor"
+    },
+    {
+      "origem": "dale",
+      "destino": "ravenhill"
+    },
+    {
+      "origem": "ravenhill",
+      "destino": "no_167"
+    },
+    {
+      "origem": "no_167",
+      "destino": "porta_secreta"
+    },
+    {
+      "origem": "porta_secreta",
+      "destino": "erebor"
+    },
+    {
+      "origem": "dale",
+      "destino": "no_168"
+    },
+    {
+      "origem": "no_168",
+      "destino": "no_169"
+    },
+    {
+      "origem": "no_169",
+      "destino": "no_170"
+    },
+    {
+      "origem": "no_170",
+      "destino": "colinas_ferro"
+    },
+    {
+      "origem": "no_48",
+      "destino": "no_171"
+    },
+    {
+      "origem": "no_171",
+      "destino": "no_172"
+    },
+    {
+      "origem": "no_172",
+      "destino": "estrada_floresta"
+    },
+    {
+      "origem": "estrada_floresta",
+      "destino": "no_173"
+    },
+    {
+      "origem": "no_173",
+      "destino": "saida_floresta"
+    },
+    {
+      "origem": "saida_floresta",
       "destino": "no_52"
     },
     {
       "origem": "no_52",
-      "destino": "lorien"
-    },
-    {
-      "origem": "moria_o",
       "destino": "no_53"
     },
     {
       "origem": "no_53",
-      "destino": "no_54"
+      "destino": "no_174"
     },
     {
-      "origem": "no_54",
-      "destino": "dunland"
+      "origem": "no_174",
+      "destino": "no_175"
     },
     {
-      "origem": "isen",
+      "origem": "no_175",
+      "destino": "no_176"
+    },
+    {
+      "origem": "no_176",
+      "destino": "colinas_ferro"
+    },
+    {
+      "origem": "saida_floresta",
+      "destino": "no_177"
+    },
+    {
+      "origem": "no_177",
+      "destino": "no_178"
+    },
+    {
+      "origem": "no_178",
+      "destino": "esgaroth"
+    },
+    {
+      "origem": "no_47",
+      "destino": "no_179"
+    },
+    {
+      "origem": "no_179",
+      "destino": "no_180"
+    },
+    {
+      "origem": "no_180",
+      "destino": "no_49"
+    },
+    {
+      "origem": "no_48",
+      "destino": "no_181"
+    },
+    {
+      "origem": "no_181",
+      "destino": "no_182"
+    },
+    {
+      "origem": "no_182",
+      "destino": "no_50"
+    },
+    {
+      "origem": "no_50",
+      "destino": "campos_lis"
+    },
+    {
+      "origem": "no_49",
+      "destino": "no_183"
+    },
+    {
+      "origem": "no_183",
+      "destino": "no_184"
+    },
+    {
+      "origem": "no_184",
+      "destino": "no_185"
+    },
+    {
+      "origem": "no_185",
+      "destino": "dimrill"
+    },
+    {
+      "origem": "campos_lis",
+      "destino": "no_186"
+    },
+    {
+      "origem": "no_186",
+      "destino": "no_51"
+    },
+    {
+      "origem": "no_51",
+      "destino": "rhosgobel"
+    },
+    {
+      "origem": "no_51",
+      "destino": "no_187"
+    },
+    {
+      "origem": "no_187",
+      "destino": "no_188"
+    },
+    {
+      "origem": "no_188",
+      "destino": "no_55"
+    },
+    {
+      "origem": "rhosgobel",
+      "destino": "no_189"
+    },
+    {
+      "origem": "no_189",
+      "destino": "dol_guldur"
+    },
+    {
+      "origem": "dol_guldur",
+      "destino": "no_190"
+    },
+    {
+      "origem": "no_190",
+      "destino": "no_191"
+    },
+    {
+      "origem": "no_191",
       "destino": "no_55"
     },
     {
       "origem": "no_55",
-      "destino": "isengard"
+      "destino": "embarcadouro_lorien"
     },
     {
-      "origem": "isen",
-      "destino": "no_56"
+      "origem": "esgaroth",
+      "destino": "no_192"
     },
     {
-      "origem": "no_56",
-      "destino": "abismo"
+      "origem": "no_192",
+      "destino": "no_193"
     },
     {
-      "origem": "isen",
-      "destino": "no_57"
+      "origem": "no_193",
+      "destino": "no_52"
     },
     {
-      "origem": "no_57",
-      "destino": "no_58"
+      "origem": "no_52",
+      "destino": "no_194"
     },
     {
-      "origem": "no_58",
-      "destino": "edoras"
+      "origem": "no_194",
+      "destino": "no_195"
     },
     {
-      "origem": "abismo",
-      "destino": "no_59"
+      "origem": "no_195",
+      "destino": "no_196"
     },
     {
-      "origem": "no_59",
-      "destino": "edoras"
+      "origem": "no_196",
+      "destino": "no_197"
     },
     {
-      "origem": "isengard",
-      "destino": "no_60"
+      "origem": "no_197",
+      "destino": "no_54"
     },
     {
-      "origem": "no_60",
-      "destino": "fangorn"
+      "origem": "no_54",
+      "destino": "no_198"
     },
     {
-      "origem": "fangorn",
-      "destino": "no_61"
+      "origem": "no_198",
+      "destino": "no_199"
     },
     {
-      "origem": "no_61",
-      "destino": "edoras"
+      "origem": "no_199",
+      "destino": "dorwinion"
     },
     {
-      "origem": "lorien",
-      "destino": "no_62"
+      "origem": "dorwinion",
+      "destino": "mar_rhun"
     },
     {
-      "origem": "no_62",
-      "destino": "no_63"
+      "origem": "embarcadouro_lorien",
+      "destino": "no_200"
     },
     {
-      "origem": "no_63",
-      "destino": "fangorn"
+      "origem": "no_200",
+      "destino": "no_201"
     },
     {
-      "origem": "lorien",
-      "destino": "no_64"
+      "origem": "no_201",
+      "destino": "no_202"
     },
     {
-      "origem": "no_64",
-      "destino": "no_65"
+      "origem": "no_202",
+      "destino": "no_203"
     },
     {
-      "origem": "no_65",
+      "origem": "no_203",
       "destino": "vau_n"
     },
     {
       "origem": "vau_n",
+      "destino": "no_204"
+    },
+    {
+      "origem": "no_204",
+      "destino": "no_205"
+    },
+    {
+      "origem": "no_205",
+      "destino": "no_206"
+    },
+    {
+      "origem": "no_206",
+      "destino": "no_207"
+    },
+    {
+      "origem": "no_207",
       "destino": "vau_s"
     },
     {
       "origem": "vau_s",
+      "destino": "no_208"
+    },
+    {
+      "origem": "no_208",
+      "destino": "no_209"
+    },
+    {
+      "origem": "no_209",
+      "destino": "no_210"
+    },
+    {
+      "origem": "no_210",
+      "destino": "no_211"
+    },
+    {
+      "origem": "no_211",
+      "destino": "sarn_gebir"
+    },
+    {
+      "origem": "vau_n",
+      "destino": "no_56"
+    },
+    {
+      "origem": "vau_n",
+      "destino": "no_57"
+    },
+    {
+      "origem": "no_57",
+      "destino": "no_212"
+    },
+    {
+      "origem": "no_212",
+      "destino": "terras_castanhas"
+    },
+    {
+      "origem": "vau_s",
+      "destino": "no_58"
+    },
+    {
+      "origem": "vau_s",
+      "destino": "no_59"
+    },
+    {
+      "origem": "no_59",
+      "destino": "no_213"
+    },
+    {
+      "origem": "no_213",
+      "destino": "terras_castanhas"
+    },
+    {
+      "origem": "dol_guldur",
+      "destino": "no_214"
+    },
+    {
+      "origem": "no_214",
+      "destino": "terras_castanhas"
+    },
+    {
+      "origem": "terras_castanhas",
+      "destino": "no_215"
+    },
+    {
+      "origem": "no_215",
+      "destino": "no_216"
+    },
+    {
+      "origem": "no_216",
+      "destino": "dagorlad"
+    },
+    {
+      "origem": "caras_galadhon",
+      "destino": "no_217"
+    },
+    {
+      "origem": "no_217",
+      "destino": "campo_celebrant"
+    },
+    {
+      "origem": "campo_celebrant",
+      "destino": "travessia_limlight"
+    },
+    {
+      "origem": "travessia_limlight",
+      "destino": "no_218"
+    },
+    {
+      "origem": "no_218",
+      "destino": "no_219"
+    },
+    {
+      "origem": "no_219",
+      "destino": "fangorn"
+    },
+    {
+      "origem": "campo_celebrant",
+      "destino": "no_220"
+    },
+    {
+      "origem": "no_220",
+      "destino": "no_56"
+    },
+    {
+      "origem": "travessia_limlight",
+      "destino": "no_221"
+    },
+    {
+      "origem": "no_221",
+      "destino": "no_58"
+    },
+    {
+      "origem": "no_58",
+      "destino": "no_222"
+    },
+    {
+      "origem": "no_222",
+      "destino": "eastemnet"
+    },
+    {
+      "origem": "sarn_gebir",
+      "destino": "no_223"
+    },
+    {
+      "origem": "no_223",
+      "destino": "portagem"
+    },
+    {
+      "origem": "portagem",
+      "destino": "no_224"
+    },
+    {
+      "origem": "no_224",
+      "destino": "no_60"
+    },
+    {
+      "origem": "no_60",
+      "destino": "argonath"
+    },
+    {
+      "origem": "argonath",
+      "destino": "nen_hithoel"
+    },
+    {
+      "origem": "nen_hithoel",
+      "destino": "parth_galen"
+    },
+    {
+      "origem": "parth_galen",
+      "destino": "amon_hen"
+    },
+    {
+      "origem": "nen_hithoel",
+      "destino": "no_61"
+    },
+    {
+      "origem": "no_61",
+      "destino": "amon_lhaw"
+    },
+    {
+      "origem": "amon_lhaw",
+      "destino": "escada_norte"
+    },
+    {
+      "origem": "escada_norte",
+      "destino": "pe_rauros"
+    },
+    {
+      "origem": "escada_norte",
+      "destino": "rauros"
+    },
+    {
+      "origem": "no_61",
+      "destino": "no_225"
+    },
+    {
+      "origem": "no_225",
+      "destino": "no_226"
+    },
+    {
+      "origem": "no_226",
+      "destino": "emyn_muil"
+    },
+    {
+      "origem": "emyn_muil",
+      "destino": "no_227"
+    },
+    {
+      "origem": "no_227",
+      "destino": "pantanos_mortos"
+    },
+    {
+      "origem": "pantanos_mortos",
+      "destino": "no_228"
+    },
+    {
+      "origem": "no_228",
+      "destino": "no_229"
+    },
+    {
+      "origem": "no_229",
+      "destino": "portao"
+    },
+    {
+      "origem": "dagorlad",
+      "destino": "no_230"
+    },
+    {
+      "origem": "no_230",
+      "destino": "portao"
+    },
+    {
+      "origem": "parth_galen",
+      "destino": "no_231"
+    },
+    {
+      "origem": "no_231",
+      "destino": "no_232"
+    },
+    {
+      "origem": "no_232",
+      "destino": "eastemnet"
+    },
+    {
+      "origem": "eastemnet",
+      "destino": "travessia_entwash"
+    },
+    {
+      "origem": "travessia_entwash",
+      "destino": "fangorn"
+    },
+    {
+      "origem": "fangorn",
+      "destino": "derndingle"
+    },
+    {
+      "origem": "derndingle",
+      "destino": "wellinghall"
+    },
+    {
+      "origem": "fangorn",
+      "destino": "no_233"
+    },
+    {
+      "origem": "no_233",
+      "destino": "no_234"
+    },
+    {
+      "origem": "no_234",
+      "destino": "no_235"
+    },
+    {
+      "origem": "no_235",
+      "destino": "no_62"
+    },
+    {
+      "origem": "travessia_entwash",
+      "destino": "no_236"
+    },
+    {
+      "origem": "no_236",
+      "destino": "no_237"
+    },
+    {
+      "origem": "no_237",
+      "destino": "no_238"
+    },
+    {
+      "origem": "no_238",
+      "destino": "no_64"
+    },
+    {
+      "origem": "isengard",
+      "destino": "no_239"
+    },
+    {
+      "origem": "no_239",
+      "destino": "isen"
+    },
+    {
+      "origem": "isen",
+      "destino": "no_62"
+    },
+    {
+      "origem": "no_62",
+      "destino": "no_240"
+    },
+    {
+      "origem": "no_240",
+      "destino": "no_63"
+    },
+    {
+      "origem": "no_63",
+      "destino": "no_241"
+    },
+    {
+      "origem": "no_241",
+      "destino": "no_64"
+    },
+    {
+      "origem": "no_64",
+      "destino": "edoras"
+    },
+    {
+      "origem": "no_63",
+      "destino": "abismo"
+    },
+    {
+      "origem": "edoras",
+      "destino": "no_242"
+    },
+    {
+      "origem": "no_242",
+      "destino": "dunharrow"
+    },
+    {
+      "origem": "dunharrow",
+      "destino": "dimholt"
+    },
+    {
+      "origem": "dimholt",
+      "destino": "caminhos_mortos"
+    },
+    {
+      "origem": "caminhos_mortos",
+      "destino": "saida_mortos"
+    },
+    {
+      "origem": "saida_mortos",
+      "destino": "erech"
+    },
+    {
+      "origem": "no_64",
+      "destino": "no_243"
+    },
+    {
+      "origem": "no_243",
+      "destino": "no_244"
+    },
+    {
+      "origem": "no_244",
+      "destino": "no_245"
+    },
+    {
+      "origem": "no_245",
+      "destino": "mering"
+    },
+    {
+      "origem": "mering",
+      "destino": "no_246"
+    },
+    {
+      "origem": "no_246",
+      "destino": "no_247"
+    },
+    {
+      "origem": "no_247",
+      "destino": "no_65"
+    },
+    {
+      "origem": "no_65",
       "destino": "no_66"
     },
     {
       "origem": "no_66",
+      "destino": "no_248"
+    },
+    {
+      "origem": "no_248",
+      "destino": "rammas_echor"
+    },
+    {
+      "origem": "rammas_echor",
+      "destino": "pelennor"
+    },
+    {
+      "origem": "pelennor",
+      "destino": "minas"
+    },
+    {
+      "origem": "mering",
+      "destino": "halifirien"
+    },
+    {
+      "origem": "no_65",
+      "destino": "druadan"
+    },
+    {
+      "origem": "druadan",
+      "destino": "stonewain"
+    },
+    {
+      "origem": "stonewain",
+      "destino": "no_249"
+    },
+    {
+      "origem": "no_249",
+      "destino": "rammas_echor"
+    },
+    {
+      "origem": "no_66",
+      "destino": "amon_din"
+    },
+    {
+      "origem": "pe_rauros",
+      "destino": "no_250"
+    },
+    {
+      "origem": "no_250",
+      "destino": "no_251"
+    },
+    {
+      "origem": "no_251",
       "destino": "no_67"
     },
     {
       "origem": "no_67",
-      "destino": "rauros"
-    },
-    {
-      "origem": "fangorn",
-      "destino": "no_68"
-    },
-    {
-      "origem": "no_68",
-      "destino": "no_69"
-    },
-    {
-      "origem": "no_69",
-      "destino": "rauros"
-    },
-    {
-      "origem": "edoras",
-      "destino": "no_70"
-    },
-    {
-      "origem": "no_70",
-      "destino": "no_71"
-    },
-    {
-      "origem": "no_71",
-      "destino": "no_72"
-    },
-    {
-      "origem": "no_72",
-      "destino": "minas"
-    },
-    {
-      "origem": "rauros",
-      "destino": "no_73"
-    },
-    {
-      "origem": "no_73",
-      "destino": "no_74"
-    },
-    {
-      "origem": "no_74",
       "destino": "cair"
     },
     {
       "origem": "cair",
-      "destino": "no_75"
+      "destino": "no_68"
     },
     {
-      "origem": "no_75",
-      "destino": "minas"
+      "origem": "no_67",
+      "destino": "no_252"
     },
     {
-      "origem": "minas",
-      "destino": "osgiliath"
+      "origem": "no_252",
+      "destino": "no_66"
     },
     {
-      "origem": "cair",
-      "destino": "no_76"
+      "origem": "erech",
+      "destino": "no_253"
     },
     {
-      "origem": "no_76",
-      "destino": "encruzilhada"
+      "origem": "no_253",
+      "destino": "no_254"
     },
     {
-      "origem": "osgiliath",
-      "destino": "encruzilhada"
+      "origem": "no_254",
+      "destino": "no_255"
     },
     {
-      "origem": "encruzilhada",
-      "destino": "morgul"
+      "origem": "no_255",
+      "destino": "no_256"
     },
     {
-      "origem": "morgul",
-      "destino": "no_77"
+      "origem": "no_256",
+      "destino": "no_81"
     },
     {
-      "origem": "no_77",
-      "destino": "cirith"
+      "origem": "no_81",
+      "destino": "calembel"
     },
     {
-      "origem": "encruzilhada",
-      "destino": "no_78"
+      "origem": "calembel",
+      "destino": "no_80"
     },
     {
-      "origem": "no_78",
+      "origem": "no_80",
+      "destino": "no_82"
+    },
+    {
+      "origem": "no_82",
+      "destino": "no_257"
+    },
+    {
+      "origem": "no_257",
       "destino": "no_79"
     },
     {
       "origem": "no_79",
-      "destino": "portao"
+      "destino": "linhir"
+    },
+    {
+      "origem": "linhir",
+      "destino": "no_83"
+    },
+    {
+      "origem": "no_83",
+      "destino": "no_258"
+    },
+    {
+      "origem": "no_258",
+      "destino": "no_259"
+    },
+    {
+      "origem": "no_259",
+      "destino": "pelargir"
+    },
+    {
+      "origem": "calembel",
+      "destino": "no_260"
+    },
+    {
+      "origem": "no_260",
+      "destino": "edhellond"
+    },
+    {
+      "origem": "edhellond",
+      "destino": "no_261"
+    },
+    {
+      "origem": "no_261",
+      "destino": "dol_amroth"
+    },
+    {
+      "origem": "dol_amroth",
+      "destino": "no_88"
+    },
+    {
+      "origem": "no_88",
+      "destino": "no_262"
+    },
+    {
+      "origem": "no_262",
+      "destino": "no_263"
+    },
+    {
+      "origem": "no_263",
+      "destino": "no_264"
+    },
+    {
+      "origem": "no_264",
+      "destino": "no_265"
+    },
+    {
+      "origem": "no_265",
+      "destino": "linhir"
+    },
+    {
+      "origem": "minas",
+      "destino": "no_266"
+    },
+    {
+      "origem": "no_266",
+      "destino": "no_267"
+    },
+    {
+      "origem": "no_267",
+      "destino": "vau_erui"
+    },
+    {
+      "origem": "vau_erui",
+      "destino": "no_84"
+    },
+    {
+      "origem": "no_84",
+      "destino": "no_268"
+    },
+    {
+      "origem": "no_268",
+      "destino": "pelargir"
+    },
+    {
+      "origem": "minas",
+      "destino": "harlond_gondor"
+    },
+    {
+      "origem": "pelargir",
+      "destino": "no_269"
+    },
+    {
+      "origem": "no_269",
+      "destino": "no_270"
+    },
+    {
+      "origem": "no_270",
+      "destino": "no_271"
+    },
+    {
+      "origem": "no_271",
+      "destino": "harlond_gondor"
+    },
+    {
+      "origem": "minas",
+      "destino": "no_272"
+    },
+    {
+      "origem": "no_272",
+      "destino": "no_69"
+    },
+    {
+      "origem": "no_69",
+      "destino": "osgiliath"
+    },
+    {
+      "origem": "osgiliath",
+      "destino": "no_70"
+    },
+    {
+      "origem": "no_70",
+      "destino": "encruzilhada"
+    },
+    {
+      "origem": "no_68",
+      "destino": "cormallen"
+    },
+    {
+      "origem": "cormallen",
+      "destino": "henneth_annun"
+    },
+    {
+      "origem": "henneth_annun",
+      "destino": "no_71"
+    },
+    {
+      "origem": "portao",
+      "destino": "no_273"
+    },
+    {
+      "origem": "no_273",
+      "destino": "no_71"
+    },
+    {
+      "origem": "no_71",
+      "destino": "no_274"
+    },
+    {
+      "origem": "no_274",
+      "destino": "encruzilhada"
+    },
+    {
+      "origem": "encruzilhada",
+      "destino": "no_275"
+    },
+    {
+      "origem": "no_275",
+      "destino": "emyn_arnen"
+    },
+    {
+      "origem": "emyn_arnen",
+      "destino": "no_72"
+    },
+    {
+      "origem": "no_72",
+      "destino": "no_276"
+    },
+    {
+      "origem": "no_276",
+      "destino": "no_86"
+    },
+    {
+      "origem": "no_86",
+      "destino": "poros"
+    },
+    {
+      "origem": "poros",
+      "destino": "no_87"
+    },
+    {
+      "origem": "no_87",
+      "destino": "no_277"
+    },
+    {
+      "origem": "no_277",
+      "destino": "harondor"
+    },
+    {
+      "origem": "pelargir",
+      "destino": "no_85"
+    },
+    {
+      "origem": "no_85",
+      "destino": "no_278"
+    },
+    {
+      "origem": "no_278",
+      "destino": "no_86"
+    },
+    {
+      "origem": "encruzilhada",
+      "destino": "vale_morgul"
+    },
+    {
+      "origem": "vale_morgul",
+      "destino": "no_73"
+    },
+    {
+      "origem": "no_73",
+      "destino": "morgul"
+    },
+    {
+      "origem": "morgul",
+      "destino": "no_279"
+    },
+    {
+      "origem": "no_279",
+      "destino": "passagem_morgul"
+    },
+    {
+      "origem": "passagem_morgul",
+      "destino": "no_74"
+    },
+    {
+      "origem": "no_74",
+      "destino": "no_280"
+    },
+    {
+      "origem": "no_280",
+      "destino": "no_281"
+    },
+    {
+      "origem": "no_281",
+      "destino": "gorgoroth"
+    },
+    {
+      "origem": "no_73",
+      "destino": "escadas_cirith"
+    },
+    {
+      "origem": "escadas_cirith",
+      "destino": "laracna"
+    },
+    {
+      "origem": "laracna",
+      "destino": "cirith"
+    },
+    {
+      "origem": "cirith",
+      "destino": "torre_cirith"
+    },
+    {
+      "origem": "torre_cirith",
+      "destino": "no_74"
+    },
+    {
+      "origem": "torre_cirith",
+      "destino": "no_282"
+    },
+    {
+      "origem": "no_282",
+      "destino": "morgai"
+    },
+    {
+      "origem": "morgai",
+      "destino": "no_283"
+    },
+    {
+      "origem": "no_283",
+      "destino": "no_284"
+    },
+    {
+      "origem": "no_284",
+      "destino": "isenmouthe"
     },
     {
       "origem": "portao",
@@ -713,27 +3508,87 @@
     },
     {
       "origem": "udun",
+      "destino": "no_285"
+    },
+    {
+      "origem": "no_285",
       "destino": "isenmouthe"
     },
     {
       "origem": "isenmouthe",
-      "destino": "no_80"
+      "destino": "no_75"
     },
     {
-      "origem": "no_80",
+      "origem": "no_75",
+      "destino": "no_286"
+    },
+    {
+      "origem": "no_286",
+      "destino": "no_76"
+    },
+    {
+      "origem": "no_76",
+      "destino": "no_287"
+    },
+    {
+      "origem": "no_287",
+      "destino": "barad_dur"
+    },
+    {
+      "origem": "no_75",
+      "destino": "no_288"
+    },
+    {
+      "origem": "no_288",
+      "destino": "no_289"
+    },
+    {
+      "origem": "no_289",
+      "destino": "no_290"
+    },
+    {
+      "origem": "no_290",
+      "destino": "no_78"
+    },
+    {
+      "origem": "no_78",
       "destino": "orodruin"
     },
     {
-      "origem": "cirith",
-      "destino": "no_81"
+      "origem": "orodruin",
+      "destino": "sammath_naur"
     },
     {
-      "origem": "no_81",
-      "destino": "no_82"
+      "origem": "barad_dur",
+      "destino": "no_291"
     },
     {
-      "origem": "no_82",
-      "destino": "orodruin"
+      "origem": "no_291",
+      "destino": "no_77"
+    },
+    {
+      "origem": "no_77",
+      "destino": "no_78"
+    },
+    {
+      "origem": "gorgoroth",
+      "destino": "no_77"
+    },
+    {
+      "origem": "gorgoroth",
+      "destino": "no_292"
+    },
+    {
+      "origem": "no_292",
+      "destino": "nurn"
+    },
+    {
+      "origem": "nurn",
+      "destino": "no_293"
+    },
+    {
+      "origem": "no_293",
+      "destino": "mar_nurnen"
     }
   ]
 }

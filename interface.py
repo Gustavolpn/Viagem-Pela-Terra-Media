@@ -1,4 +1,8 @@
 from pathlib import Path
+import ast
+import sys
+from collections import deque
+from time import perf_counter
 import tkinter as tk
 from tkinter import ttk
 
@@ -35,6 +39,19 @@ class Interface:
         self.posicoes_nos = {}
         self.inicio_clique = None
         self.arrastando = False
+        self.animacao_agendada = None
+        self.passos_busca = []
+        self.indice_passo = 0
+        self.nos_explorados = set()
+        self.arestas_exploradas = set()
+        self.no_atual = None
+        self.rota_movimento = []
+        self.trecho_movimento = 0
+        self.fracao_movimento = 0.0
+        self.ultimo_quadro = 0.0
+        self.pontos_mapa = {}
+        self.resultado_busca = None
+        self.mensagem_final = ""
         arquivo_mapa = Path(pasta) / grafo.dados.get("imagem", "mapa.png")
         if arquivo_mapa.is_file():
             with Image.open(arquivo_mapa) as imagem:
@@ -55,8 +72,11 @@ class Interface:
         self.status = tk.StringVar(value="Escolha a origem e o destino.")
         self.texto_zoom = tk.StringVar(value="100%")
         self.selecao_mapa = tk.StringVar(value="origem")
+        self.intervalo = tk.DoubleVar(value=0.0)
+        self.texto_intervalo = tk.StringVar(value="0,0 s")
 
-        janela.title("Terra-média • Planejador de viagens")
+        janela.title("Viagem Pela Terra-média")
+        janela.protocol("WM_DELETE_WINDOW", self.fechar)
         janela.geometry("1200x820")
         janela.minsize(1000, 650)
         janela.columnconfigure(0, weight=1)
@@ -125,6 +145,12 @@ class Interface:
         ttk.Label(resultado, textvariable=self.status, wraplength=240).grid(sticky="w")
         ttk.Separator(resultado).grid(sticky="ew", pady=20)
         ttk.Label(resultado, text="Verde: origem\nVermelho: destino", justify="left").grid(sticky="w")
+        ttk.Separator(resultado).grid(sticky="ew", pady=20)
+        ttk.Label(resultado, text="Intervalo da animação entre nós").grid(sticky="w")
+        ttk.Scale(resultado, from_=0, to=3, variable=self.intervalo,
+                  command=self.atualizar_intervalo).grid(sticky="ew", pady=(8, 0))
+        ttk.Label(resultado, textvariable=self.texto_intervalo).grid(sticky="w")
+        ttk.Button(resultado, text="Repetir busca", command=self.calcular).grid(sticky="ew", pady=(12, 0))
 
         for variavel in (self.origem, self.destino, self.algoritmo, self.limite):
             variavel.trace_add("write", self.agendar_calculo)
@@ -135,18 +161,24 @@ class Interface:
         self.campo_limite.configure(state="normal" if usa_limite else "disabled")
 
     def agendar_calculo(self, *args):
+        self.cancelar_animacao()
         self.atualizar_limite()
         if self.calculo_agendado is not None:
             self.janela.after_cancel(self.calculo_agendado)
         self.calculo_agendado = self.janela.after(150, self.calcular)
 
     def limpar_resultado(self, mensagem):
+        self.cancelar_animacao()
+        self.nos_explorados.clear()
+        self.arestas_exploradas.clear()
+        self.no_atual = None
         self.caminho = []
         self.custo.set("— km")
         self.status.set(mensagem)
         self.desenhar_mapa()
 
     def calcular(self):
+        self.cancelar_animacao()
         if self.calculo_agendado is not None:
             self.janela.after_cancel(self.calculo_agendado)
             self.calculo_agendado = None
@@ -166,11 +198,154 @@ class Interface:
             argumentos.append(limite)
         origem = self.rotulos[self.origem.get()]
         destino = self.rotulos[self.destino.get()]
-        resultado = busca(self.grafo, origem, destino, *argumentos)
+        self.passos_busca = []
+        resultado = self.executar_busca(busca, origem, destino, argumentos)
+        self.resultado_busca = resultado
+        self.indice_passo = 0
+        self.nos_explorados.clear()
+        self.arestas_exploradas.clear()
+        self.no_atual = None
         self.caminho = []
+        self.custo.set("— km")
+        self.mensagem_final = "Nenhum caminho encontrado" + (" dentro do limite informado." if argumentos else ".")
+        self.desenhar_mapa()
+        self.avancar_animacao()
+
+    def executar_busca(self, busca, origem, destino, argumentos):
+        linhas_visita = {}
+        for algoritmo in self.ALGORITMOS.values():
+            codigo = algoritmo.__code__
+            fonte = Path(codigo.co_filename).read_text(encoding="utf-8-sig")
+            arvore = ast.parse(fonte)
+            for instrucao in ast.walk(arvore):
+                if (isinstance(instrucao, ast.If)
+                        and isinstance(instrucao.test, ast.Compare)
+                        and ast.dump(instrucao.test) == ast.dump(ast.parse("atual == objetivo", mode="eval").body)):
+                    linhas_visita[codigo] = instrucao.lineno
+                    break
+
+        def acompanhar(quadro, evento, argumento):
+            if quadro.f_code not in linhas_visita:
+                return None
+            if evento == "line" and quadro.f_lineno == linhas_visita[quadro.f_code]:
+                atual = quadro.f_locals["atual"]
+                pai = quadro.f_locals["pai"].get(atual)
+                self.passos_busca.append((atual, pai))
+            return acompanhar
+
+        observador_anterior = sys.gettrace()
+        try:
+            sys.settrace(acompanhar)
+            return busca(self.grafo, origem, destino, *argumentos)
+        finally:
+            sys.settrace(observador_anterior)
+
+    def cancelar_animacao(self):
+        if self.animacao_agendada is not None:
+            self.janela.after_cancel(self.animacao_agendada)
+            self.animacao_agendada = None
+        self.rota_movimento = []
+
+    def fechar(self):
+        self.cancelar_animacao()
+        if self.calculo_agendado is not None:
+            self.janela.after_cancel(self.calculo_agendado)
+        self.janela.destroy()
+
+    def atualizar_intervalo(self, valor=None):
+        segundos = min(3.0, max(0.0, round(self.intervalo.get(), 1)))
+        self.intervalo.set(segundos)
+        self.texto_intervalo.set(f"{segundos:.1f} s".replace(".", ","))
+        if self.animacao_agendada is not None:
+            self.janela.after_cancel(self.animacao_agendada)
+            proximo = self.animar_movimento if self.rota_movimento else self.avancar_animacao
+            self.ultimo_quadro = perf_counter()
+            self.animacao_agendada = self.janela.after(0, proximo)
+
+    def avancar_animacao(self):
+        self.animacao_agendada = None
+        if self.intervalo.get() == 0:
+            self.indice_passo = len(self.passos_busca)
+            self.concluir_animacao()
+            return
+        if self.indice_passo >= len(self.passos_busca):
+            self.concluir_animacao()
+            return
+        no, pai = self.passos_busca[self.indice_passo]
+        if pai is None:
+            self.nos_explorados.clear()
+            self.arestas_exploradas.clear()
+            self.no_atual = None
+        nome = self.nomes.get(no, "Via")
+        self.status.set(f"{self.algoritmo.get()}\nExplorando: {nome}\nPasso {self.indice_passo + 1} de {len(self.passos_busca)}")
+        if self.no_atual is not None and self.no_atual != no:
+            self.rota_movimento = self.caminho_ate_proximo(no, pai)
+            self.trecho_movimento = 0
+            self.fracao_movimento = 0.0
+            self.ultimo_quadro = perf_counter()
+            self.animar_movimento()
+        else:
+            self.chegar_ao_no()
+
+    def caminho_ate_proximo(self, no, pai):
+        vizinhos = {}
+        for a, b in sorted(self.arestas_exploradas | ({(pai, no)} if pai is not None else set())):
+            vizinhos.setdefault(a, []).append(b)
+            vizinhos.setdefault(b, []).append(a)
+        fila = deque([self.no_atual])
+        anteriores = {self.no_atual: None}
+        while fila:
+            atual = fila.popleft()
+            if atual == no:
+                rota = []
+                while atual is not None:
+                    rota.append(atual)
+                    atual = anteriores[atual]
+                return list(reversed(rota))
+            for vizinho in vizinhos.get(atual, []):
+                if vizinho not in anteriores:
+                    anteriores[vizinho] = atual
+                    fila.append(vizinho)
+        return [pai, no] if pai is not None else [no]
+
+    def animar_movimento(self):
+        self.animacao_agendada = None
+        if self.intervalo.get() == 0:
+            self.rota_movimento = []
+            self.concluir_animacao()
+            return
+        agora = perf_counter()
+        self.fracao_movimento += (agora - self.ultimo_quadro) / self.intervalo.get()
+        self.ultimo_quadro = agora
+        while self.fracao_movimento >= 1:
+            self.fracao_movimento -= 1
+            self.trecho_movimento += 1
+        if self.trecho_movimento >= len(self.rota_movimento) - 1:
+            self.rota_movimento = []
+            self.chegar_ao_no()
+            return
+        self.desenhar_movimento()
+        self.animacao_agendada = self.janela.after(16, self.animar_movimento)
+
+    def chegar_ao_no(self):
+        no, pai = self.passos_busca[self.indice_passo]
+        self.nos_explorados.add(no)
+        if pai is not None:
+            self.arestas_exploradas.add((pai, no))
+        self.no_atual = no
+        self.indice_passo += 1
+        self.desenhar_exploracao()
+        self.animacao_agendada = self.janela.after(16, self.avancar_animacao)
+
+    def concluir_animacao(self):
+        self.rota_movimento = []
+        self.no_atual = None
+        self.nos_explorados.clear()
+        self.arestas_exploradas.clear()
+        resultado = self.resultado_busca
         if resultado is None:
             self.custo.set("— km")
-            self.status.set("Nenhum caminho encontrado" + (" dentro do limite informado." if argumentos else "."))
+            self.status.set(self.mensagem_final)
         else:
             self.caminho, custo = resultado
             distancia = f"{custo:,.2f}".replace(",", "_").replace(".", ",").replace("_", ".")
@@ -187,7 +362,6 @@ class Interface:
         novo_zoom = min(4.0, max(1.0, self.zoom * fator))
         if novo_zoom == self.zoom:
             return
-        # Mantém o centro da área visível ao ampliar ou reduzir.
         regiao = self.canvas.cget("scrollregion")
         limites = list(map(float, self.canvas.tk.splitlist(regiao))) if regiao else []
         largura = max(self.canvas.winfo_width(), 1)
@@ -255,7 +429,6 @@ class Interface:
         altura = max(self.canvas.winfo_height(), 1)
         largura_original = self.imagem.width if self.imagem else self.grafo.dados.get("largura", 1600)
         altura_original = self.imagem.height if self.imagem else self.grafo.dados.get("altura", 1131)
-        # Preenche a área do mapa sem faixas vazias, mantendo a proporção da imagem.
         escala = max(largura / largura_original, altura / altura_original) * self.zoom
         w, h = max(largura, round(largura_original * escala)), max(altura, round(altura_original * escala))
         largura_area, altura_area = max(largura, w), max(altura, h)
@@ -269,14 +442,49 @@ class Interface:
             dados = self.grafo.nos[no]
             return dx + dados["x"] * escala, dy + dados["y"] * escala
 
+        self.pontos_mapa = {no: ponto(no) for no in self.grafo.nos}
         for aresta in self.grafo.arestas:
             self.canvas.create_line(*ponto(aresta["origem"]), *ponto(aresta["destino"]), fill="#716753", width=1)
         for i in range(len(self.caminho) - 1):
             self.canvas.create_line(*ponto(self.caminho[i]), *ponto(self.caminho[i+1]), fill="#ffb000", width=4)
         self.posicoes_nos = {no: ponto(no) for no in self.nomes}
         for x, y in self.posicoes_nos.values():
-            self.canvas.create_oval(x-4, y-4, x+4, y+4, fill="#554b3b", outline="white", width=1.5)
+            self.canvas.create_oval(x-4, y-4, x+4, y+4, fill="#554b3b", outline="white", width=1.5, tags="marcador")
         for no, cor in ((self.rotulos.get(self.origem.get()), "#198754"), (self.rotulos.get(self.destino.get()), "#dc3545")):
             if no in self.posicoes_nos:
                 x, y = self.posicoes_nos[no]
-                self.canvas.create_oval(x-6, y-6, x+6, y+6, fill=cor, outline="white", width=2)
+                self.canvas.create_oval(x-6, y-6, x+6, y+6, fill=cor, outline="white", width=2, tags="marcador")
+        self.desenhar_exploracao()
+
+    def desenhar_exploracao(self):
+        self.canvas.delete("busca")
+        for pai, no in self.arestas_exploradas:
+            self.canvas.create_line(*self.pontos_mapa[pai], *self.pontos_mapa[no],
+                                    fill="#287dcc", width=3, tags="busca")
+        for no in self.nos_explorados:
+            if no in self.posicoes_nos:
+                x, y = self.posicoes_nos[no]
+                self.canvas.create_oval(x-7, y-7, x+7, y+7,
+                                        outline="#287dcc", width=2, tags="busca")
+        self.canvas.tag_raise("marcador")
+        if self.rota_movimento:
+            self.desenhar_movimento()
+        elif self.no_atual in self.pontos_mapa:
+            x, y = self.pontos_mapa[self.no_atual]
+            self.canvas.create_oval(x-10, y-10, x+10, y+10,
+                                    outline="#0057b8", width=3, tags=("busca", "ponteiro"))
+
+    def desenhar_movimento(self):
+        self.canvas.delete("movimento")
+        self.canvas.delete("ponteiro")
+        a = self.rota_movimento[self.trecho_movimento]
+        b = self.rota_movimento[self.trecho_movimento + 1]
+        ax, ay = self.pontos_mapa[a]
+        bx, by = self.pontos_mapa[b]
+        t = self.fracao_movimento
+        t = t * t * (3 - 2 * t)
+        x, y = ax + (bx - ax) * t, ay + (by - ay) * t
+        self.canvas.create_line(ax, ay, x, y, fill="#287dcc", width=3,
+                                tags=("busca", "movimento"))
+        self.canvas.create_oval(x-6, y-6, x+6, y+6, fill="#0057b8",
+                                outline="white", width=2, tags=("busca", "movimento"))
