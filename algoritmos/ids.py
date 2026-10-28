@@ -5,6 +5,10 @@ from algoritmos.dls import dls
 def ids(grafo, inicio, objetivo, limite_maximo):
     for limite in range(limite_maximo + 1): 
         destino = dls(grafo, inicio, objetivo, limite)
-        
-        if destino != None:
+
+        if destino == "Corte por limite":
+            continue
+        else:
             return destino
+
+    return "Corte por limite"

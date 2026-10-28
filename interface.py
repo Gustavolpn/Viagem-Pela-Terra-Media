@@ -207,7 +207,7 @@ class Interface:
         self.no_atual = None
         self.caminho = []
         self.custo.set("— km")
-        self.mensagem_final = "Nenhum caminho encontrado" + (" dentro do limite informado." if argumentos else ".")
+        self.mensagem_final = "Falha: não existe caminho entre a origem e o destino."
         self.desenhar_mapa()
         self.avancar_animacao()
 
@@ -343,7 +343,10 @@ class Interface:
         self.nos_explorados.clear()
         self.arestas_exploradas.clear()
         resultado = self.resultado_busca
-        if resultado is None:
+        if resultado == "Corte por limite":
+            self.custo.set("— km")
+            self.status.set(f"Corte por limite: nenhum caminho encontrado se aprofundando em {self.limite.get()} arestas. Aumente o limite para continuar a busca.")
+        elif resultado is None:
             self.custo.set("— km")
             self.status.set(self.mensagem_final)
         else:
